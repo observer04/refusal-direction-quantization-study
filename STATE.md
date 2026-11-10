@@ -10,6 +10,8 @@ Updated: 2026-11-10 (Asia/Kolkata). Maintain after meaningful changes; keep meas
 
 ## Immediate objective
 
+**Final report (10 Nov):** `report/final_claude/Abliteration_Quantization_Report.docx`, 28 pages, built by `report/final_claude/build_final_report.py` around the frozen question, with student and supervisor names filled in. This supersedes the earlier DOCX for submission.
+
 **Revision pending (10 Nov):** read [report/CRITIQUE_FOR_CODEX.md](report/CRITIQUE_FOR_CODEX.md) first. It freezes the research question (does an abliteration edit survive NF4, and is any loss edit-specific?), ranks the report's problems and supplies six data figures in `report/figures_proposed/`. No new GPU work is required.
 
 **Revised college report is complete and checked.** [Final DOCX](report/Refusal_Direction_Ablation_Report.docx), 26 pages, SHA `149f6b2dc43653a5254d1f7b7d3112344a1b68ed252352c7bda5c00b562d24a8`. Title: *Refusal Direction Ablation and Quantization Stability*, with a focused literature review and exploratory Qwen study. The independent triage agent preserved the 28-page v1 in `report/baseline_v1_20261110/`, cited the abstract's literature framing, strengthened comparative synthesis, shortened operational detail and retained all material result limitations. All 26 final pages were inspected; citation, self-containment and template checks pass. Root independently reviewed the revised prose, abstract, synthesis/results pages and final hash. Unknown student, institution, examination and signature fields remain editable placeholders; pagination must be rechecked after filling them. No new inference or uploads occurred.

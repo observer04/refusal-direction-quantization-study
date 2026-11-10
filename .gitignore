@@ -47,7 +47,6 @@ notebook6e40f1f90a.ipynb
 # Keep the final document, authoring source and compact QA records
 report/baseline_v1_20261110/
 report/checkpoint_evidence/
-report/figures_proposed/
 report/writing_qa/*
 !report/writing_qa/QA_NOTES.md
 !report/writing_qa/artifact.md
