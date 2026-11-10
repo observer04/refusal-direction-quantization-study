@@ -6,6 +6,8 @@ Updated: 2026-11-10 (Asia/Kolkata). Maintain after meaningful changes; keep meas
 
 **Implementation, bounded semantic audit and NF4 pilot are complete.** The reconstruction has real but incomplete semantic effects and matches publisher judgment categories on the selected cases; broad efficacy remains unestablished. All GPU jobs are complete. All model execution, dependency installation and full-weight downloads stayed on Kaggle; no local model environment was created. Resume context is in [HANDOFF.md](HANDOFF.md).
 
+**GitHub persistence complete:** private [observer04/refusal-direction-quantization-study](https://github.com/observer04/refusal-direction-quantization-study), branch `main`. The revised report, editable sources, source notebooks and compact research records are tracked. Remote report blob matches the local file. Credentials, model tensors, raw completion queues/logs, output-bearing notebooks and generated render images are excluded; detailed evidence remains separately persisted on private Hugging Face. The historical Heretic release is a pinned upstream submodule. No model execution or dependency installation was needed for this upload.
+
 ## Immediate objective
 
 **Revision pending (10 Nov):** read [report/CRITIQUE_FOR_CODEX.md](report/CRITIQUE_FOR_CODEX.md) first. It freezes the research question (does an abliteration edit survive NF4, and is any loss edit-specific?), ranks the report's problems and supplies six data figures in `report/figures_proposed/`. No new GPU work is required.
