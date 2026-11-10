@@ -1,0 +1,17 @@
+{
+  "direction_index": 18.49,
+  "parameters": {
+    "attn.o_proj": {
+      "max_weight": 2.0,
+      "max_weight_position": 18.99,
+      "min_weight": 1.43,
+      "min_weight_distance": 9.65
+    },
+    "mlp.down_proj": {
+      "max_weight": 1.67,
+      "max_weight_position": 26.06,
+      "min_weight": 0.84,
+      "min_weight_distance": 18.04
+    }
+  }
+}

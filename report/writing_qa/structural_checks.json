@@ -1,0 +1,23 @@
+{
+  "reference_sha256": "e62bd2c6c049f854c84896c9ff903e4a04d583ca25ec51399f9895474e260f1a",
+  "final_sha256": "149f6b2dc43653a5254d1f7b7d3112344a1b68ed252352c7bda5c00b562d24a8",
+  "all_original_relationships_preserved": true,
+  "all_contents_links_resolve": true,
+  "bookmark_count": 26,
+  "section_count": 18,
+  "data_tables": 8,
+  "native_numbered_equations": 4,
+  "native_math_objects": 8,
+  "comments_tracked_changes_content_controls": 0,
+  "citation_count": 12,
+  "all_twelve_cited": true,
+  "bibliography_identical_to_frozen_v1": true,
+  "unresolved_citation_tokens": 0,
+  "rendered_pages": 26,
+  "planned_page_locators_text_checked": true,
+  "contents_and_list_page_locators_visually_checked": true,
+  "all_final_pages_individually_inspected": true,
+  "internal_artifact_leakage_scan_passed": true,
+  "external_hyperlink_targets": [],
+  "fresh_diff_render_identical_to_inspected_pages": true
+}

@@ -1,0 +1,15 @@
+{
+  "repo": "Observer04/Qwen3.5-9B-heretic-corrected-20261109",
+  "private": true,
+  "commit": "2ca10d3f77a029b32e541d549ce9ba6083a77f18",
+  "path": "research/feasibility_v1/review-v1/",
+  "artifact_count": 85,
+  "artifact_bytes": 8523420,
+  "root_files_unchanged": true,
+  "representative_remote_bytes_verified": {
+    "RESULTS.md": "5da9cd4ab6af7120e6b20009a330b6792b0a7f644866efe892e29dc8ae8d565e",
+    "PROTOCOL.md": "f9275a3dafe2fb742b191cd8d96928403b10c26777477c822bc5c20bfe7ac55f",
+    "artifact_manifest.json": "827dfdc202dc0b5a8e02f6129e5fec3b8e319680f8badc941449d7822d3a6ff4"
+  },
+  "remote_git_blob_hashes_verified": 85
+}

@@ -1,0 +1,24 @@
+{
+  "exposed_records_checked": 2222,
+  "exposed_unique_normalized": 1210,
+  "exposed_splits": {
+    "bad_test": 100,
+    "bad_train": 400,
+    "dev_bad_external": 16,
+    "dev_bad_native": 16,
+    "dev_good": 32,
+    "extract_bad": 400,
+    "extract_good": 400,
+    "fresh_bad": 64,
+    "fresh_good": 64,
+    "good_test": 100,
+    "good_train": 400,
+    "historical_bad": 100,
+    "historical_good": 100,
+    "long_or_smoke": 30
+  },
+  "new_prompt_count": 16,
+  "new_exact_or_normalized_overlaps": 0,
+  "dedup_scope": "NFKC, casefold, punctuation and whitespace normalized equality against full saved pilot extraction/historical/development/fresh fixtures, corrected extraction fixtures, twelve long diagnostics and benign smoke. Semantic near-duplicates and pretraining/benchmark contamination unresolved.",
+  "prompts_sha256": "1a8411c42f95baadd1bb632b3e0e00af15bc8bc1dbbc442da85941f2487cb632"
+}

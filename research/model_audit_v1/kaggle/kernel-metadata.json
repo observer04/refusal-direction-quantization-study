@@ -1,0 +1,1 @@
+{"id":"ommprakash007/qwen35-independent-model-audit-v1","title":"Qwen35 Independent Model Audit v1","code_file":"audit.py","language":"python","kernel_type":"script","is_private":true,"enable_gpu":true,"enable_internet":true,"dataset_sources":["ommprakash007/qwen35-phase1-private-runtime-input"],"kernel_sources":[],"competition_sources":[],"model_sources":[]}

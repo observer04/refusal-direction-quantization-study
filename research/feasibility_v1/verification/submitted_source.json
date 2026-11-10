@@ -1,0 +1,7 @@
+{
+  "submitted_sha256": "26b2e62db45effbc401596faa07533bb4232afc65a1d3f17b1052d6cdf66867f",
+  "downloaded_submitted_source_sha256": "26b2e62db45effbc401596faa07533bb4232afc65a1d3f17b1052d6cdf66867f",
+  "exact_match": true,
+  "version": 1,
+  "kernel": "ommprakash007/qwen35-semantic-nf4-feasibility-v1"
+}

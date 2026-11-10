@@ -1,0 +1,30 @@
+{
+  "verified_utc": "2026-11-10T04:16:07.083431+00:00",
+  "verified": true,
+  "preregistered_files_unchanged": 16,
+  "all_completions_preserved": 60,
+  "raw_combined_equals_per_arm_records": true,
+  "human_fields_blank_and_agent_labels_separate": true,
+  "condition_mapping_separate": true,
+  "frozen_blinded_labels_and_analysis_unchanged": true,
+  "html_roundtrip_text_checks": {
+    "HUMAN_REVIEW_ALL.html": {
+      "cases": 60,
+      "exact_prompt_and_raw_completion_text": true,
+      "blank_rating_widgets": 60,
+      "embedded_active_resources": 0
+    },
+    "HUMAN_REVIEW_BLINDED.html": {
+      "cases": 60,
+      "exact_prompt_and_raw_completion_text": true,
+      "blank_rating_widgets": 60,
+      "embedded_active_resources": 0
+    }
+  },
+  "no_unfinalized_generations": true,
+  "merge_writer_hashes_pass": 64,
+  "adapter_module_checks_pass": 64,
+  "native_packed_modules": 358,
+  "changed_active_writers_and_scales": 42,
+  "scope": "Local stdlib artifact verification. No new inference or independent semantic reviewer."
+}

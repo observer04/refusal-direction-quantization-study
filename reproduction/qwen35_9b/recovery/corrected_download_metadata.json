@@ -1,0 +1,55 @@
+{
+  "repo_id": "Observer04/Qwen3.5-9B-heretic-corrected-20261109",
+  "private": true,
+  "revision": "76a4cfd57a114b99ed9b96bc49e4c4433492f35f",
+  "weight_shards": {
+    "model-00001-of-00006.safetensors": {
+      "size": 2034237568,
+      "sha256": "e6310d67ab0a292411cb45663bb852d9e63b405ed1902865291fd184cda60093"
+    },
+    "model-00002-of-00006.safetensors": {
+      "size": 3999615744,
+      "sha256": "84eb711f0a805c49d057e0c4bda325ea622a280c2f66a7dfc7b62c15439fc44f"
+    },
+    "model-00003-of-00006.safetensors": {
+      "size": 3997274008,
+      "sha256": "af4bfa8077d7441c2807cdcfba4c23e13655c08ef5cf5c8ee0ffc44e6356fb54"
+    },
+    "model-00004-of-00006.safetensors": {
+      "size": 3997290776,
+      "sha256": "03cc0b054c48c09d09afa07ab7c9f4341729dc16661ed7c6668e6fb0dbb4a706"
+    },
+    "model-00005-of-00006.safetensors": {
+      "size": 3991239104,
+      "sha256": "90e73ca3b8847cba11bca87f104810e6172087fd642b8f9acfa53d94bd8e25d7"
+    },
+    "model-00006-of-00006.safetensors": {
+      "size": 800062528,
+      "sha256": "e6720ad24a1b25d1a2458f8aa7825a7da46a5807b2257e9b5aa4371b2df3b068"
+    }
+  },
+  "weight_index_sha256": "3d2f0ab780828a41449b9f32fee63e6ee0d27bf98fab0e52aa982f81e6c47cec",
+  "weight_index_total_size": 18819627488,
+  "scope": "Remote index and LFS content metadata; no local weight download",
+  "downloaded_revision": "76a4cfd57a114b99ed9b96bc49e4c4433492f35f",
+  "small_evidence_files": [
+    "adapter/adapter_config.json",
+    "adapter/adapter_model.safetensors",
+    "baseline_metrics.json",
+    "baseline_responses.jsonl",
+    "benign_first_token_kl_terms.json",
+    "corrected_reloaded_paired_long_responses.jsonl",
+    "direction_metadata.json",
+    "edited_responses.jsonl",
+    "environment.txt",
+    "original_paired_long_responses.jsonl",
+    "paired_long_blind_review_mapping.jsonl",
+    "paired_long_blind_review_queue.jsonl",
+    "paired_long_prompts.json",
+    "prompts.jsonl",
+    "refusal_directions.pt",
+    "reloaded_responses.jsonl",
+    "run_manifest.json",
+    "summary.json"
+  ]
+}

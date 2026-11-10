@@ -1,0 +1,7 @@
+{
+  "exposed_records": 2238,
+  "exposed_unique_normalized": 1226,
+  "fresh_count": 24,
+  "normalized_overlaps": 0,
+  "limitations": "Exact/normalized equality only; semantic and pretraining overlap unresolved."
+}

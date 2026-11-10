@@ -1,0 +1,20 @@
+{
+  "scope": "Auxiliary human listing has stale empty-file hash in original preregistration manifest. Original manifest retained unchanged.",
+  "original_declared_bytes": 0,
+  "original_declared_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "actual_bytes": 4439,
+  "actual_sha256": "6915f64eff7e7a6775e8acb46f30c63905a1328195a338c7eba61175021ab7e7",
+  "listing_matches_exact_projection_of_frozen_fresh_fixture": true,
+  "listing_mtime_utc": "2026-11-10T04:56:20.210453+00:00",
+  "launch": {
+    "kernel": "ommprakash007/qwen35-independent-model-audit-v1",
+    "version": 1,
+    "submitted_utc": "2026-11-10T04:56:41.452301+00:00",
+    "external_timeout_seconds": 6800,
+    "generation_deadline_seconds": 6100,
+    "quota_before_gpu_hours": 24.33,
+    "submitted_source_sha256": "19e0741d7270430b7bcff7abb6e8f59c0817208a98747e54c07d91715736ef42",
+    "status": "RUNNING"
+  },
+  "interpretation": "Listing and manifest were finalized at the same timestamp before launch; likely stdout redirection/listing-hash ordering. This is an inferred packaging explanation. All actual fixture/protocol/source hashes unchanged; no generation or prompt-selection effect."
+}

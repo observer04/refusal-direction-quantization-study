@@ -1,0 +1,9 @@
+{
+  "revision": "6cd66cf9bf38efab01ffd5ab6e5c7995868f55bb",
+  "remote_documents_match_local_and_manifest": {
+    "reproduction/STATE.md": "d7bfb096134c123ab2a6ecce9dac0b1b157c602791faf879d0398bca61f961e9",
+    "reproduction/README.md": "35673eed542cabc92905f60a1d6130e993209da4d558b34755f27e4a7c73fc79",
+    "reproduction/PHASE1_RESULTS.md": "33a4b7feab5263bc9c163e6fbc8d9568d140df38125cf605d2bd2e69a4c8463e",
+    "README.md": "d6598ff4a0e166a793bc48cebab691769b1bd6019e62f763dd72950b6b29135b"
+  }
+}

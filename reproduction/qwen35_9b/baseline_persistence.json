@@ -1,0 +1,13 @@
+{
+  "source": "trohrbaugh/Qwen3.5-9B-heretic-v2",
+  "source_revision": "81dda62421c43a5bd5722edbc6cd47714673dc7f",
+  "destination": "Observer04/Qwen3.5-9B-heretic-validated-20261108",
+  "destination_revision": "eac0df296771d1ae18f2bbb798efbc02999fe0f1",
+  "private": true,
+  "weight_sha256": {
+    "model-00001-of-00002.safetensors": "996fe236e7269655ff07b0c127974d6348e330974344ab79e0d161141b34b6b7",
+    "model-00002-of-00002.safetensors": "2ee73dff6cd4e65000aa2fc7e31871391e6221d00ab1838af1c99d713f7dea14"
+  },
+  "all_weight_objects_match": true,
+  "copy_method": "CPU-only Kaggle file transfer; no model execution or dtype conversion"
+}

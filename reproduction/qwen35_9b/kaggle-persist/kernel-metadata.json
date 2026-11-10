@@ -1,0 +1,16 @@
+{
+  "id": "ommprakash007/qwen35-phase1-persist-baseline",
+  "title": "Qwen35 Phase1 Persist Baseline",
+  "code_file": "copy_baseline.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "ommprakash007/qwen35-phase1-private-runtime-input"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

@@ -1,0 +1,1154 @@
+{
+  "sha": "9b15eb07be7aa1e55cb8a202ae68fe7c93376721",
+  "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/9b15eb07be7aa1e55cb8a202ae68fe7c93376721",
+  "tree": [
+    {
+      "path": ".dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbf9ff8890b6da17765dd6df21ae68aa8b460838",
+      "size": 121,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/dbf9ff8890b6da17765dd6df21ae68aa8b460838"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a18d5f4b05fb3c84b517ea530be3fa0096af80e8",
+      "size": 1534,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/a18d5f4b05fb3c84b517ea530be3fa0096af80e8"
+    },
+    {
+      "path": ".opencode",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "345d20bf04972f37862c2717d7b5dee8dc87ce38",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/345d20bf04972f37862c2717d7b5dee8dc87ce38"
+    },
+    {
+      "path": ".opencode/agents",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "267c22f63b8991ca1fc82cd553d2a6d745a524bd",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/267c22f63b8991ca1fc82cd553d2a6d745a524bd"
+    },
+    {
+      "path": ".opencode/agents/abliterlitics-init.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "25737b322cf82011f682c5c9874a8ad8e5cb6b12",
+      "size": 15894,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/25737b322cf82011f682c5c9874a8ad8e5cb6b12"
+    },
+    {
+      "path": ".opencode/agents/glm-build.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "111fd44c6529bf619d82cf8380a87e5d4d665483",
+      "size": 11544,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/111fd44c6529bf619d82cf8380a87e5d4d665483"
+    },
+    {
+      "path": ".opencode/agents/glm-plan.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e74e43411aed7d7c3a5d8e47555600d69df71283",
+      "size": 9803,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/e74e43411aed7d7c3a5d8e47555600d69df71283"
+    },
+    {
+      "path": ".opencode/agents/harm-reviewer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d4735c11c2930196bf2d6d839dc9a19fddae08c",
+      "size": 12064,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/2d4735c11c2930196bf2d6d839dc9a19fddae08c"
+    },
+    {
+      "path": ".opencode/agents/harmbench.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a78e2273ad966b006393bcf6719f14164400b06b",
+      "size": 7556,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/a78e2273ad966b006393bcf6719f14164400b06b"
+    },
+    {
+      "path": ".opencode/agents/hy3-code-review.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e4912521691d6129b1208d191093871547b6835",
+      "size": 9332,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/6e4912521691d6129b1208d191093871547b6835"
+    },
+    {
+      "path": ".opencode/agents/hy3-plan-review.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d2303e11ddc5980bf96a84983f6e178329ca713",
+      "size": 8406,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/9d2303e11ddc5980bf96a84983f6e178329ca713"
+    },
+    {
+      "path": ".opencode/agents/kimi-code-review.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa68db120b4cc86df5915db88ba3b25a673b98f6",
+      "size": 9323,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/fa68db120b4cc86df5915db88ba3b25a673b98f6"
+    },
+    {
+      "path": ".opencode/agents/kimi-plan-review.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c767faff061392ba970c74cf26e859354aa351c",
+      "size": 8397,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/8c767faff061392ba970c74cf26e859354aa351c"
+    },
+    {
+      "path": ".opencode/agents/kl.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5df00957b0dd59bab00e66a92154435c81a6d9c1",
+      "size": 5789,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/5df00957b0dd59bab00e66a92154435c81a6d9c1"
+    },
+    {
+      "path": ".opencode/agents/lm-eval.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "794945d62dabb6a77e98f04c71a4da1ab54862bc",
+      "size": 12853,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/794945d62dabb6a77e98f04c71a4da1ab54862bc"
+    },
+    {
+      "path": ".opencode/agents/mimo-code-review.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0b56dfc64d0bc5d4d0e561f2b836f0a3a4880b7",
+      "size": 9338,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/f0b56dfc64d0bc5d4d0e561f2b836f0a3a4880b7"
+    },
+    {
+      "path": ".opencode/agents/mimo-plan-review.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6abbd57c4e5dfb95a7b8c02548e97c83e02f308",
+      "size": 8412,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/d6abbd57c4e5dfb95a7b8c02548e97c83e02f308"
+    },
+    {
+      "path": ".opencode/agents/overseer.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "126d6a075b4d8fe5bc6905241daef5d5c434348e",
+      "size": 16686,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/126d6a075b4d8fe5bc6905241daef5d5c434348e"
+    },
+    {
+      "path": ".opencode/agents/report.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4de88480e4e709bf9e1a6d67de3817cb02a1560d",
+      "size": 13550,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/4de88480e4e709bf9e1a6d67de3817cb02a1560d"
+    },
+    {
+      "path": ".opencode/agents/weights.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33e9796ea9b5f4d70a769aabdc69686025c3c676",
+      "size": 5974,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/33e9796ea9b5f4d70a769aabdc69686025c3c676"
+    },
+    {
+      "path": "AGENTS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97919b116ac346122d565a0a863ab173027fed93",
+      "size": 46723,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/97919b116ac346122d565a0a863ab173027fed93"
+    },
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1fd574fbfcc31ea58c3b089018a2b38d08c731b",
+      "size": 33693,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/e1fd574fbfcc31ea58c3b089018a2b38d08c731b"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a527b10d9648649d03c3581f92d71f9c87769ef",
+      "size": 8953,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/9a527b10d9648649d03c3581f92d71f9c87769ef"
+    },
+    {
+      "path": "TEMPLATE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "338da576a893471fffd344c9ac1420c91ae5e2be",
+      "size": 9370,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/338da576a893471fffd344c9ac1420c91ae5e2be"
+    },
+    {
+      "path": "abliterlitics.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "fc5fb2809a5aa1974ddbc119d9f8a0d45d540d21",
+      "size": 10774,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/fc5fb2809a5aa1974ddbc119d9f8a0d45d540d21"
+    },
+    {
+      "path": "comparison.example.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c363846c3b0c06c4369c74bb17fd85b9faee607c",
+      "size": 954,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/c363846c3b0c06c4369c74bb17fd85b9faee607c"
+    },
+    {
+      "path": "comparison.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0aca50ea00ac2a8729b8774ac040f4444e829bbe",
+      "size": 776,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/0aca50ea00ac2a8729b8774ac040f4444e829bbe"
+    },
+    {
+      "path": "comparison.schema.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1e3e071ab1459c9450bde245d1473c1c5eea8050",
+      "size": 3513,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/1e3e071ab1459c9450bde245d1473c1c5eea8050"
+    },
+    {
+      "path": "docker",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2e767729c1cfd94b9812053afc429d7b1333197d",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/2e767729c1cfd94b9812053afc429d7b1333197d"
+    },
+    {
+      "path": "docker/.dockerignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "118f6057595856e90b058b57415a2352bb167d9f",
+      "size": 47,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/118f6057595856e90b058b57415a2352bb167d9f"
+    },
+    {
+      "path": "docker/Dockerfile.forensics",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2119432dd6016990ea0aba936b20acac9494e3d",
+      "size": 437,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/f2119432dd6016990ea0aba936b20acac9494e3d"
+    },
+    {
+      "path": "docker/Dockerfile.ik-llamacpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92d337d5d2117ed0483e8d2cd678481f3b970b0a",
+      "size": 1560,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/92d337d5d2117ed0483e8d2cd678481f3b970b0a"
+    },
+    {
+      "path": "docker/Dockerfile.llamacpp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b214f58a1a3443e75505bb9b6636525628bfe8f6",
+      "size": 575,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/b214f58a1a3443e75505bb9b6636525628bfe8f6"
+    },
+    {
+      "path": "docker/Dockerfile.lmeval",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "252d786f301977802c09e2ea6991a0cb9eeaf928",
+      "size": 1130,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/252d786f301977802c09e2ea6991a0cb9eeaf928"
+    },
+    {
+      "path": "docs",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "df17608d02e40aa7906be8942e8f4656257ffc64",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/df17608d02e40aa7906be8942e8f4656257ffc64"
+    },
+    {
+      "path": "docs/EXAMPLES.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2578cdc78703e220f82ab7458df6554c638bcb8",
+      "size": 6435,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/d2578cdc78703e220f82ab7458df6554c638bcb8"
+    },
+    {
+      "path": "docs/GPU_SETUP.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "74a9187ba103ce3fa984ab1f3eb341a1f718a7d7",
+      "size": 8103,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/74a9187ba103ce3fa984ab1f3eb341a1f718a7d7"
+    },
+    {
+      "path": "docs/METHODOLOGY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bb52f3f1aa4fdb16dd1170111fdd0ddbbbc11b0",
+      "size": 17270,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/9bb52f3f1aa4fdb16dd1170111fdd0ddbbbc11b0"
+    },
+    {
+      "path": "docs/SECURITY.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3fc07a29126cf8bbf25d7be1ce13eeb656f715f",
+      "size": 9189,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/a3fc07a29126cf8bbf25d7be1ce13eeb656f715f"
+    },
+    {
+      "path": "pyproject.toml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60b2957ad29fb9baf044df30ac4f42809f286ebf",
+      "size": 6200,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/60b2957ad29fb9baf044df30ac4f42809f286ebf"
+    },
+    {
+      "path": "requirements.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a76562156a30085856198738075385397c5ad6f",
+      "size": 253,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/1a76562156a30085856198738075385397c5ad6f"
+    },
+    {
+      "path": "runners",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "97161a98adc3ca2aea7773e52b5cc42924d30ecb",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/97161a98adc3ca2aea7773e52b5cc42924d30ecb"
+    },
+    {
+      "path": "runners/_load_comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8516f6bc410030c984ac6cf246f3155508283f8a",
+      "size": 8044,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/8516f6bc410030c984ac6cf246f3155508283f8a"
+    },
+    {
+      "path": "runners/common.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaca0b2c1b3dfa5cb0a7627a18834bdc290c12c4",
+      "size": 4562,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/aaca0b2c1b3dfa5cb0a7627a18834bdc290c12c4"
+    },
+    {
+      "path": "runners/predownload_datasets.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "ec73fef9089a33dcdb81550478934d76636be6f2",
+      "size": 9674,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/ec73fef9089a33dcdb81550478934d76636be6f2"
+    },
+    {
+      "path": "runners/run_harmbench.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db7f2aa29e87ca3e492cdc63f8013dae6ff35012",
+      "size": 28804,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/db7f2aa29e87ca3e492cdc63f8013dae6ff35012"
+    },
+    {
+      "path": "runners/run_kl.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f656960c9ae631dd61019af68326d00e97cd687",
+      "size": 6279,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/5f656960c9ae631dd61019af68326d00e97cd687"
+    },
+    {
+      "path": "runners/run_lm_eval.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a310fa17375d37db289d69d38b4bcac3dd8b727",
+      "size": 29746,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/9a310fa17375d37db289d69d38b4bcac3dd8b727"
+    },
+    {
+      "path": "runners/run_weights.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a832a6c47bf2048cf74e0c1fdb34b911d7c09948",
+      "size": 5138,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/a832a6c47bf2048cf74e0c1fdb34b911d7c09948"
+    },
+    {
+      "path": "scripts",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "2627150422d2f3b514d013e2bfbb2934be67a316",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/2627150422d2f3b514d013e2bfbb2934be67a316"
+    },
+    {
+      "path": "scripts/convert_hf_to_gguf.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fb1f5dd4473e4d19ef6a19a5f9ec3b6a16439b92",
+      "size": 668115,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/fb1f5dd4473e4d19ef6a19a5f9ec3b6a16439b92"
+    },
+    {
+      "path": "src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "de0d5fde9f9592b69f355166758e49fb0e061a79",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/de0d5fde9f9592b69f355166758e49fb0e061a79"
+    },
+    {
+      "path": "src/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54ae95e66cc3b27935deac4865c17226f0673904",
+      "size": 125,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/54ae95e66cc3b27935deac4865c17226f0673904"
+    },
+    {
+      "path": "src/abliterlitics.egg-info",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "860bdeaa984611876de03d0e5787ea4b0574fdbf",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/860bdeaa984611876de03d0e5787ea4b0574fdbf"
+    },
+    {
+      "path": "src/abliterlitics.egg-info/PKG-INFO",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d38e0391da60ee3b2d2aae9287c44ee28dd0b62",
+      "size": 726,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/4d38e0391da60ee3b2d2aae9287c44ee28dd0b62"
+    },
+    {
+      "path": "src/abliterlitics.egg-info/SOURCES.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bca810bfd49a3d84f99fd587f24c5025d8ba3275",
+      "size": 1329,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/bca810bfd49a3d84f99fd587f24c5025d8ba3275"
+    },
+    {
+      "path": "src/abliterlitics.egg-info/dependency_links.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "size": 1,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/8b137891791fe96927ad78e64b0aad7bded08bdc"
+    },
+    {
+      "path": "src/abliterlitics.egg-info/requires.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "20d21934f0029e0c7a73c863e168254d073205b4",
+      "size": 244,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/20d21934f0029e0c7a73c863e168254d073205b4"
+    },
+    {
+      "path": "src/abliterlitics.egg-info/top_level.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90a3767378faf80b3cfce3cdb74ee4dd2de96eba",
+      "size": 172,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/90a3767378faf80b3cfce3cdb74ee4dd2de96eba"
+    },
+    {
+      "path": "src/benchmark",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8504198d09382e764b7784134263b584bde154c4",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/8504198d09382e764b7784134263b584bde154c4"
+    },
+    {
+      "path": "src/benchmark/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec328f42a19b1ff6fbf265f8fcc26b99c286f9f6",
+      "size": 20,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/ec328f42a19b1ff6fbf265f8fcc26b99c286f9f6"
+    },
+    {
+      "path": "src/benchmark/benchmark_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c03b9c1b45db0f0bff4b19124ba250fd6af798af",
+      "size": 18396,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/c03b9c1b45db0f0bff4b19124ba250fd6af798af"
+    },
+    {
+      "path": "src/benchmark/gsm8k_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a706936538af34d19c55838a7a22fedee89d07b7",
+      "size": 11153,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/a706936538af34d19c55838a7a22fedee89d07b7"
+    },
+    {
+      "path": "src/benchmark/harmbench_classify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41fc2ad2d7f632cc432bda71bf514cb004b6bc1c",
+      "size": 40477,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/41fc2ad2d7f632cc432bda71bf514cb004b6bc1c"
+    },
+    {
+      "path": "src/benchmark/harmbench_generate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "789609815b661db897caf4ac7b8585d7dbdec6e9",
+      "size": 14764,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/789609815b661db897caf4ac7b8585d7dbdec6e9"
+    },
+    {
+      "path": "src/benchmark/harmbench_review.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1030e71178f90b6af56035dac486cb810101456d",
+      "size": 10265,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/1030e71178f90b6af56035dac486cb810101456d"
+    },
+    {
+      "path": "src/benchmark/logprobs_proxy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "66159d476c6593c523ffc1b3e47a7ba2d2bff8df",
+      "size": 2718,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/66159d476c6593c523ffc1b3e47a7ba2d2bff8df"
+    },
+    {
+      "path": "src/benchmark/reviewer_prompt.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e87c59c8decf94df12daee20203ce8c24dbf852",
+      "size": 12068,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/3e87c59c8decf94df12daee20203ce8c24dbf852"
+    },
+    {
+      "path": "src/config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90e388c406d31d5d9687826b6bf613d49675aa20",
+      "size": 10153,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/90e388c406d31d5d9687826b6bf613d49675aa20"
+    },
+    {
+      "path": "src/db",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "a991d418fdae6a2a8f3343f96e39dc9ff2802c24",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/a991d418fdae6a2a8f3343f96e39dc9ff2802c24"
+    },
+    {
+      "path": "src/db/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d852de7de0f089be8d940dc113d77598a8dddd2",
+      "size": 560,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/4d852de7de0f089be8d940dc113d77598a8dddd2"
+    },
+    {
+      "path": "src/db/__main__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8bd8f6e39e16abf5d282758996f7c60fa1dd83eb",
+      "size": 173,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/8bd8f6e39e16abf5d282758996f7c60fa1dd83eb"
+    },
+    {
+      "path": "src/db/cli.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "332cd3f18656ee1b97a1d9cb5757058b4eee6c5c",
+      "size": 25943,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/332cd3f18656ee1b97a1d9cb5757058b4eee6c5c"
+    },
+    {
+      "path": "src/db/core.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cf0f79168d316db08b1824b102055cd3c632f00",
+      "size": 8278,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/4cf0f79168d316db08b1824b102055cd3c632f00"
+    },
+    {
+      "path": "src/db/importers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "150264cb5a6f2647cf49bf9e3a4f5f2bdc9987a6",
+      "size": 35895,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/150264cb5a6f2647cf49bf9e3a4f5f2bdc9987a6"
+    },
+    {
+      "path": "src/db/pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bafeb8c9fee7316268645d84cc2a80550b9db47c",
+      "size": 7075,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/bafeb8c9fee7316268645d84cc2a80550b9db47c"
+    },
+    {
+      "path": "src/db/schema.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a72a0bcb6b7fa9bae74b0859ef52fc7329b02363",
+      "size": 20389,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/a72a0bcb6b7fa9bae74b0859ef52fc7329b02363"
+    },
+    {
+      "path": "src/db_tables.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4e770134d582e411effefc362fe7320a239c412",
+      "size": 52721,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/a4e770134d582e411effefc362fe7320a239c412"
+    },
+    {
+      "path": "src/docker_helpers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b7f12a8ee32783c5353fcb75f5c97f8b2141c08",
+      "size": 4627,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/1b7f12a8ee32783c5353fcb75f5c97f8b2141c08"
+    },
+    {
+      "path": "src/gpu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "380e2050fc62597a812f111fcb074f1e75f1e3d7",
+      "size": 8271,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/380e2050fc62597a812f111fcb074f1e75f1e3d7"
+    },
+    {
+      "path": "src/kl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "0bad94be701767a92886a4de9807fc040aefb229",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/0bad94be701767a92886a4de9807fc040aefb229"
+    },
+    {
+      "path": "src/kl/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00dca7f505e44ea1ee1e159c7b1e7a9d237eb384",
+      "size": 24,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/00dca7f505e44ea1ee1e159c7b1e7a9d237eb384"
+    },
+    {
+      "path": "src/kl/kl_divergence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2e62152a6755c385ca23d684e025306ca3ccb4e",
+      "size": 34230,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/d2e62152a6755c385ca23d684e025306ca3ccb4e"
+    },
+    {
+      "path": "src/model_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "016acf938934a34b6975052fbbc686526650bfee",
+      "size": 9981,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/016acf938934a34b6975052fbbc686526650bfee"
+    },
+    {
+      "path": "src/report",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "6aa441365dbab1c13c07ff535c2e0d757abe0ad5",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/6aa441365dbab1c13c07ff535c2e0d757abe0ad5"
+    },
+    {
+      "path": "src/report/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78009e16521b02afa5a7d581ffe9ac160ec40999",
+      "size": 28,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/78009e16521b02afa5a7d581ffe9ac160ec40999"
+    },
+    {
+      "path": "src/report/generate_graphs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1da6eb21395806450197bf9b9f6f8b240b49821",
+      "size": 14995,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/e1da6eb21395806450197bf9b9f6f8b240b49821"
+    },
+    {
+      "path": "src/report/provenance_report.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "27aff6c646f996922b37a88b4cb45f66275c60bc",
+      "size": 17603,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/27aff6c646f996922b37a88b4cb45f66275c60bc"
+    },
+    {
+      "path": "src/weight",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c1a6ebd3f9ff5ca0e299fe5b17e2a5bd3818645f",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/c1a6ebd3f9ff5ca0e299fe5b17e2a5bd3818645f"
+    },
+    {
+      "path": "src/weight/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54a3e664b41f892b74dea95c8c54be3e1347b06a",
+      "size": 26,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/54a3e664b41f892b74dea95c8c54be3e1347b06a"
+    },
+    {
+      "path": "src/weight/cross_arch_comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dfa4048b11e5263d6991fb2e58874bbd10524e3",
+      "size": 3944,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/7dfa4048b11e5263d6991fb2e58874bbd10524e3"
+    },
+    {
+      "path": "src/weight/duplicate_detect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b784259b73f35f7ab4041db5ab04fb9427c69111",
+      "size": 8774,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/b784259b73f35f7ab4041db5ab04fb9427c69111"
+    },
+    {
+      "path": "src/weight/edit_vector_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e715be0c973520e10b5fa180685554cd40bf006a",
+      "size": 12272,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/e715be0c973520e10b5fa180685554cd40bf006a"
+    },
+    {
+      "path": "src/weight/expert_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9098083b43667a4462357e97a88960236f7f7dd2",
+      "size": 10704,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/9098083b43667a4462357e97a88960236f7f7dd2"
+    },
+    {
+      "path": "src/weight/layer_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58d94925ff8c9b507c9e410b1fdb27be9699cedf",
+      "size": 9698,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/58d94925ff8c9b507c9e410b1fdb27be9699cedf"
+    },
+    {
+      "path": "src/weight/lowrank_reconstruction.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0acba2fb6cbb838fbfb9e1f525ae88e6f2d8ca4",
+      "size": 9599,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/c0acba2fb6cbb838fbfb9e1f525ae88e6f2d8ca4"
+    },
+    {
+      "path": "src/weight/panel_comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "565d271b0f35b061c868388e949faaafc9c31c44",
+      "size": 9277,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/565d271b0f35b061c868388e949faaafc9c31c44"
+    },
+    {
+      "path": "src/weight/stacking_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4186a4bc451c59f1611d52a589eee364ab9bbb34",
+      "size": 12188,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/4186a4bc451c59f1611d52a589eee364ab9bbb34"
+    },
+    {
+      "path": "src/weight/subspace_alignment.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b217b34cc2733c0cb6b5efb628f3d8504c22bdca",
+      "size": 10381,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/b217b34cc2733c0cb6b5efb628f3d8504c22bdca"
+    },
+    {
+      "path": "src/weight/svd_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c830aeff15c3ec1541b3bf0809560bc6ea24ce47",
+      "size": 9489,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/c830aeff15c3ec1541b3bf0809560bc6ea24ce47"
+    },
+    {
+      "path": "src/weight/technique_correlation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2d494ba2231b2bee8fb5df419a54ff84b134b5f",
+      "size": 8637,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/a2d494ba2231b2bee8fb5df419a54ff84b134b5f"
+    },
+    {
+      "path": "src/weight/technique_fingerprint.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "628c84addd88a7c5f3d83eaaa26a7e2945f869cf",
+      "size": 9262,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/628c84addd88a7c5f3d83eaaa26a7e2945f869cf"
+    },
+    {
+      "path": "tests",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "304ffcba3790c9f75f4742aebb62cd607d289f51",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/304ffcba3790c9f75f4742aebb62cd607d289f51"
+    },
+    {
+      "path": "tests/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4839a6b14c11e64143d1d200c2d4733595ffc6c",
+      "size": 16,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/d4839a6b14c11e64143d1d200c2d4733595ffc6c"
+    },
+    {
+      "path": "tests/conftest.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1407b81b2e3c9346405554677baa202b3a5abac5",
+      "size": 13309,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/1407b81b2e3c9346405554677baa202b3a5abac5"
+    },
+    {
+      "path": "tests/fixtures",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b67b5af314821815dc6f4342cfe01c3cc9e205b6",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/b67b5af314821815dc6f4342cfe01c3cc9e205b6"
+    },
+    {
+      "path": "tests/fixtures/harmbench_labeled.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "300425f9f1ba080afe58ffcfd04a12d19c33bdc9",
+      "size": 2661,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/300425f9f1ba080afe58ffcfd04a12d19c33bdc9"
+    },
+    {
+      "path": "tests/test_benchmark",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "5da2924f7b80ee0f3580adf7ead499652dbd57e9",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/5da2924f7b80ee0f3580adf7ead499652dbd57e9"
+    },
+    {
+      "path": "tests/test_benchmark/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f645702a1604f5c664885aaaf1cfce0d36e1c26",
+      "size": 18,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/1f645702a1604f5c664885aaaf1cfce0d36e1c26"
+    },
+    {
+      "path": "tests/test_benchmark/test_gsm8k_eval.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b47b33faea5c7eed9f691b96e898017195c6976",
+      "size": 2150,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/8b47b33faea5c7eed9f691b96e898017195c6976"
+    },
+    {
+      "path": "tests/test_benchmark/test_harmbench_classify.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29c0e72f8a16b5faeea4845953d1793e75628e61",
+      "size": 6688,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/29c0e72f8a16b5faeea4845953d1793e75628e61"
+    },
+    {
+      "path": "tests/test_benchmark/test_harmbench_generate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "60b9a98fd73ef06a4004ae44d51af94726689acc",
+      "size": 717,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/60b9a98fd73ef06a4004ae44d51af94726689acc"
+    },
+    {
+      "path": "tests/test_benchmark/test_harmbench_review.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa3fa141a21783ac159c84397b5023e5aa7d0331",
+      "size": 518,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/fa3fa141a21783ac159c84397b5023e5aa7d0331"
+    },
+    {
+      "path": "tests/test_benchmark/test_logprobs_proxy.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48593a1b31ff9ed7c8a2d13021dc8b3732928ba1",
+      "size": 2521,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/48593a1b31ff9ed7c8a2d13021dc8b3732928ba1"
+    },
+    {
+      "path": "tests/test_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "350c082854dabdbc34c7a77f5ae1b3eb8a2c19db",
+      "size": 11358,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/350c082854dabdbc34c7a77f5ae1b3eb8a2c19db"
+    },
+    {
+      "path": "tests/test_db",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "4c5576b0c221cefdabf49d1fc2d4644b82c70155",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/4c5576b0c221cefdabf49d1fc2d4644b82c70155"
+    },
+    {
+      "path": "tests/test_db/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/test_db/test_importers.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9075647428ce8220a001610f44d88b37c0203662",
+      "size": 11147,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/9075647428ce8220a001610f44d88b37c0203662"
+    },
+    {
+      "path": "tests/test_db/test_pipeline.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e20f1b272dd2d1cb61948b7fb265da109af5678",
+      "size": 8014,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/2e20f1b272dd2d1cb61948b7fb265da109af5678"
+    },
+    {
+      "path": "tests/test_db/test_schema.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c037a6ad3d50c64bca5db3adbc9aac315f104b3a",
+      "size": 5230,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/c037a6ad3d50c64bca5db3adbc9aac315f104b3a"
+    },
+    {
+      "path": "tests/test_db_tables.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6db7521b33e627c689bd5993bb97ce856e41b322",
+      "size": 12531,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/6db7521b33e627c689bd5993bb97ce856e41b322"
+    },
+    {
+      "path": "tests/test_gpu.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2abf53378d04e6f449aba8786d434ee0ad64350c",
+      "size": 5769,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/2abf53378d04e6f449aba8786d434ee0ad64350c"
+    },
+    {
+      "path": "tests/test_kl",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e55cbfb74ce1bb0030045317e35d9949d4e0726b",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/e55cbfb74ce1bb0030045317e35d9949d4e0726b"
+    },
+    {
+      "path": "tests/test_kl/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5fc0dcb24abb264b6b7f4de1ce9f2ff7d2e91ac",
+      "size": 22,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/d5fc0dcb24abb264b6b7f4de1ce9f2ff7d2e91ac"
+    },
+    {
+      "path": "tests/test_kl/test_kl_divergence.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "359b4d7363d09ba55c1be5e557452662e3b289fc",
+      "size": 4209,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/359b4d7363d09ba55c1be5e557452662e3b289fc"
+    },
+    {
+      "path": "tests/test_model_config.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc10f9e505c9055e44ee3988e556020dc47e457d",
+      "size": 13685,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/cc10f9e505c9055e44ee3988e556020dc47e457d"
+    },
+    {
+      "path": "tests/test_report",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "f2f5b226b1ebe8418e709cf0c25ca2cfc615c23b",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/f2f5b226b1ebe8418e709cf0c25ca2cfc615c23b"
+    },
+    {
+      "path": "tests/test_report/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ed482697c3af4a5e3298d11b3e9ca64359e9f68",
+      "size": 15,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/1ed482697c3af4a5e3298d11b3e9ca64359e9f68"
+    },
+    {
+      "path": "tests/test_report/test_generate_graphs.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46711bc084dcf7338d46b674f3809b1ee5b45ecb",
+      "size": 2320,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/46711bc084dcf7338d46b674f3809b1ee5b45ecb"
+    },
+    {
+      "path": "tests/test_runners",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8b79adc5ebe82d8ffcb7676ea60f321a604a2436",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/8b79adc5ebe82d8ffcb7676ea60f321a604a2436"
+    },
+    {
+      "path": "tests/test_runners/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "tests/test_runners/test_load_comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd17052a67bcccf41c605c34534132d18ab13ef0",
+      "size": 13483,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/fd17052a67bcccf41c605c34534132d18ab13ef0"
+    },
+    {
+      "path": "tests/test_weight",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e6b6b3dad44e2cf707319740b8dafc2c2fdd237",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/8e6b6b3dad44e2cf707319740b8dafc2c2fdd237"
+    },
+    {
+      "path": "tests/test_weight/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b45f0213e8aeeb43e697253ec3f3a2ecc1cb2af3",
+      "size": 24,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/b45f0213e8aeeb43e697253ec3f3a2ecc1cb2af3"
+    },
+    {
+      "path": "tests/test_weight/test_correlation.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "711a5c59c379f6d7137eead33f40c5cf153d9704",
+      "size": 1856,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/711a5c59c379f6d7137eead33f40c5cf153d9704"
+    },
+    {
+      "path": "tests/test_weight/test_cross_arch.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "42d6979872e99f9add36566da79048c77aa106e7",
+      "size": 296,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/42d6979872e99f9add36566da79048c77aa106e7"
+    },
+    {
+      "path": "tests/test_weight/test_duplicate_detect.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82e2a599dee2e1542e46b853e6ddf408282a753d",
+      "size": 5888,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/82e2a599dee2e1542e46b853e6ddf408282a753d"
+    },
+    {
+      "path": "tests/test_weight/test_edit_vector.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57214820fa431ea9c078231246a85cabcab87e92",
+      "size": 4288,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/57214820fa431ea9c078231246a85cabcab87e92"
+    },
+    {
+      "path": "tests/test_weight/test_expert.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc444adf6c38d67fb7ef26148c716352033454ba",
+      "size": 1890,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/bc444adf6c38d67fb7ef26148c716352033454ba"
+    },
+    {
+      "path": "tests/test_weight/test_fingerprint.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0123444aed58e8099d7aa3b8bfdb9b3d597025af",
+      "size": 1388,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/0123444aed58e8099d7aa3b8bfdb9b3d597025af"
+    },
+    {
+      "path": "tests/test_weight/test_layer_analysis.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36c67d47d8645955866f129e0d262f50edc8d5d6",
+      "size": 2654,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/36c67d47d8645955866f129e0d262f50edc8d5d6"
+    },
+    {
+      "path": "tests/test_weight/test_lowrank.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dbc909ad9d719d1e394b2fc1c5113797210a3e20",
+      "size": 1655,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/dbc909ad9d719d1e394b2fc1c5113797210a3e20"
+    },
+    {
+      "path": "tests/test_weight/test_panel_comparison.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "134870ef1ec7e45c2d7e5281e9f2bf6e46700bc2",
+      "size": 2200,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/134870ef1ec7e45c2d7e5281e9f2bf6e46700bc2"
+    },
+    {
+      "path": "tests/test_weight/test_stacking.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c6f6f9551e3f62ff5252a847abdfec1af28e56e",
+      "size": 1476,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/6c6f6f9551e3f62ff5252a847abdfec1af28e56e"
+    },
+    {
+      "path": "tests/test_weight/test_subspace.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bb07458c03ccc63af3b1508447b201c295015e9",
+      "size": 2594,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/9bb07458c03ccc63af3b1508447b201c295015e9"
+    },
+    {
+      "path": "tests/test_weight/test_svd.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7e2063e62e8bdf61ba67c582f1e97ff185ab34c2",
+      "size": 3250,
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/blobs/7e2063e62e8bdf61ba67c582f1e97ff185ab34c2"
+    }
+  ],
+  "truncated": false
+}

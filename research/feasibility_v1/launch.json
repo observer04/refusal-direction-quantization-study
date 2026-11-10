@@ -1,0 +1,10 @@
+{
+  "kernel": "ommprakash007/qwen35-semantic-nf4-feasibility-v1",
+  "version": 1,
+  "submitted_utc": "2026-11-10T03:00:19.334595+00:00",
+  "external_timeout_seconds": 6800,
+  "generation_deadline_seconds": 6200,
+  "quota_before_gpu_hours": 25.37,
+  "submitted_source_sha256": "26b2e62db45effbc401596faa07533bb4232afc65a1d3f17b1052d6cdf66867f",
+  "status": "submitted"
+}

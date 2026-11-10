@@ -1,0 +1,301 @@
+{
+  "checked_utc": "2026-11-10T04:53:01.332037+00:00",
+  "quota": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nresource  used   remaining  total   refreshAt            \n--------  -----  ---------  ------  -------------------  \nGPU       5.67h  24.33h     30.00h  2026-11-14T00:00:00  \nTPU       0.00h  20.00h     20.00h  2026-11-14T00:00:00  \n",
+  "saved_kernel_statuses": [
+    {
+      "ref": "ommprakash007/notebooke47f019457",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/notebooke47f019457 has status \"KernelWorkerStatus.COMPLETE\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/qwen35-semantic-nf4-feasibility-v1",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/qwen35-semantic-nf4-feasibility-v1 has status \"KernelWorkerStatus.COMPLETE\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/qwen35-recovery-corrected",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/qwen35-recovery-corrected has status \"KernelWorkerStatus.COMPLETE\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/qwen35-recovery-projected-pilot",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/qwen35-recovery-projected-pilot has status \"KernelWorkerStatus.COMPLETE\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/qwen35-recovery-weight-audit",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/qwen35-recovery-weight-audit has status \"KernelWorkerStatus.QUEUED\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/qwen35-phase1-persist-baseline",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/qwen35-phase1-persist-baseline has status \"KernelWorkerStatus.COMPLETE\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/qwen35-phase1-published-check",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/qwen35-phase1-published-check has status \"KernelWorkerStatus.COMPLETE\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/qwen35-phase1-heretic-replay",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/qwen35-phase1-heretic-replay has status \"KernelWorkerStatus.COMPLETE\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/notebook7d0f58157b",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/notebook6e40f1f90a",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/r08-bge-score-2026-09-27",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/r08-bge-score-2026-09-27 has status \"KernelWorkerStatus.COMPLETE\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/r06-recover-test-2026-09-26",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/r06-recover-test-2026-09-26 has status \"KernelWorkerStatus.CANCEL_ACKNOWLEDGED\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/r06-final-full-test-2026-09-26",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/r06-final-full-test-2026-09-26 has status \"KernelWorkerStatus.ERROR\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/submission-1-proxy-smoke-2026-09-25",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/submission-1-proxy-smoke-2026-09-25 has status \"KernelWorkerStatus.ERROR\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/my-awesome-kernel",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/my-awesome-kernel has status \"KernelWorkerStatus.ERROR\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/notebookbc7c223f15",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/notebook35d827fead",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/notebookf52b25f52a",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/notebook6504b8cb4e",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/notebook5a977be3e0",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/notebook13312ef688",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/notebook13ee42a121",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/competition-finetuning-fixedd1ef9a22ab",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/competition-finetuning-fixedd1ef9a22ab has status \"KernelWorkerStatus.ERROR\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/competition-finetuning-fixed",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/competition-finetuning-fixed has status \"KernelWorkerStatus.ERROR\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/competition-finetuning1da776be91",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/competition-finetuning1da776be91 has status \"KernelWorkerStatus.ERROR\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/competition-finetuning",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/competition-finetuning has status \"KernelWorkerStatus.ERROR\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/test-pretrained-baseline",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/test-pretrained-baseline has status \"KernelWorkerStatus.ERROR\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/notebookb49dd6fd34",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/kaggle-hkh-pretrain-v2bb5bfe84a5",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/kaggle-hkh-pretrain-v2bb5bfe84a5 has status \"KernelWorkerStatus.CANCEL_ACKNOWLEDGED\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/notebook71549e8d4a",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/kaggle-hkh-pretrain-v2",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/kaggle-hkh-pretrain-v2 has status \"KernelWorkerStatus.ERROR\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/notebook16404e412c",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/notebookcf01fa1833",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/notebook6297a30282",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/kaggle-hkh-pretrain",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/kaggle-hkh-pretrain has status \"KernelWorkerStatus.ERROR\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/notebook118be41e1a",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/notebook32e3659ab4",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/notebook4c86e994dd",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/notebookce94b8e7e1",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/notebooke2ef425941",
+      "returncode": 0,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/notebooke2ef425941 has status \"KernelWorkerStatus.ERROR\"\n",
+      "stderr": ""
+    },
+    {
+      "ref": "ommprakash007/notebookf6dda8ef79",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/notebook636039ab64",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/notebook94427b4e77",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/is-it-a-bird-creating-a-model-from-your-own-data",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/jupyter-notebook-101",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/comprehensive-data-exploration-with-python",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/train-your-first-pytorch-model-card-classifier",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/movie-classification",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    },
+    {
+      "ref": "ommprakash007/notebook16023098bd",
+      "returncode": 1,
+      "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\n",
+      "stderr": "404 Client Error: Not Found for url: https://api.kaggle.com/v1/kernels.KernelsApiService/GetKernelSessionStatus\n"
+    }
+  ],
+  "interactive_sessions": "Not inventoried; browser binding absent, do not imply none."
+}

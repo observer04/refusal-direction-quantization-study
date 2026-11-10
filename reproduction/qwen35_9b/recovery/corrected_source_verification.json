@@ -1,0 +1,8 @@
+{
+  "local_entrypoint": "Reproduce_Qwen3_5_9B_Heretic_Corrected.ipynb",
+  "pulled_kaggle_source": "reproduction/qwen35_9b/recovery/runs/corrected-v1/source/qwen35-recovery-corrected.ipynb",
+  "all_cell_sources_equal": true,
+  "cell_count": 12,
+  "local_sha256": "ab105c15f8358eca3990479baaba6d0705e4d3a0291b85e7cdf5b81f922fd57f",
+  "kaggle_source_sha256": "da6540112cfc07905d6fb59d68078a3f8b258b54dd81b25a63f31a23964b5eca"
+}

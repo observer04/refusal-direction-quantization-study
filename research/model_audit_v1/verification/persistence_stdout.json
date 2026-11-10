@@ -1,0 +1,18 @@
+{
+  "repo": "Observer04/Qwen3.5-9B-heretic-corrected-20261109",
+  "private": true,
+  "commit": "7f12baad08f0f5296b763f2c689be5731e322544",
+  "path": "research/model_audit_v1/review-v1/",
+  "artifact_count": 135,
+  "artifact_bytes": 9115976,
+  "root_files_unchanged": true,
+  "root_files_equal_pinned_corrected": true,
+  "representative_remote_bytes_verified": {
+    "AUDIT.md": "1cfccb38a23212490db49c941f2d4ab67e8599c120cd74e0be479b2031799c50",
+    "PROTOCOL.md": "f22cba1c75872216301914aea4c2afeb8600e1c5425df9cf7bfede4b8c4dc75e",
+    "artifact_manifest.json": "b5500cf55f924bc9d2b6396b09cbde32c376aa057bff7f55a4fb2d4b8c76700b",
+    "new_blind_labels.jsonl": "6ec7fca1ca368d3e637c9a48876eb4053e282ed33b16d9a2a06cd6984b6e2c7b",
+    "classifier_comparison_all.json": "88314f7c03515d470cea4408f5828fb9b8c39a86cf0fe189c004415de8b2ad4b"
+  },
+  "remote_git_blob_hashes_verified": 135
+}

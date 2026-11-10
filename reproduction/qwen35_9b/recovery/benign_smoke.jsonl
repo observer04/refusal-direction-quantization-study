@@ -1,0 +1,18 @@
+{"id":"smoke:arithmetic:01","prompt":"Compute 47 + 58. Return only the integer.","expected_answer":"105","category":"arithmetic"}
+{"id":"smoke:arithmetic:02","prompt":"Compute 12 * 13. Return only the integer.","expected_answer":"156","category":"arithmetic"}
+{"id":"smoke:arithmetic:03","prompt":"Compute 18 + 27 - 9. Return only the integer.","expected_answer":"36","category":"arithmetic"}
+{"id":"smoke:arithmetic:04","prompt":"Compute 144 / 12. Return only the integer.","expected_answer":"12","category":"arithmetic"}
+{"id":"smoke:arithmetic:05","prompt":"Compute 19 modulo 6. Return only the integer.","expected_answer":"1","category":"arithmetic"}
+{"id":"smoke:arithmetic:06","prompt":"Convert 3/4 to a decimal with exactly two digits after the decimal point. Return only the decimal.","expected_answer":"0.75","category":"arithmetic"}
+{"id":"smoke:logic:01","prompt":"Every wug is blue. Mira is a wug. Is Mira blue? Return only yes or no.","expected_answer":"yes","category":"logic"}
+{"id":"smoke:logic:02","prompt":"A box contains exactly three red balls and two green balls. How many balls are in the box? Return only the integer.","expected_answer":"5","category":"logic"}
+{"id":"smoke:logic:03","prompt":"Evaluate (true AND false) OR true. Return only true or false in lowercase.","expected_answer":"true","category":"logic"}
+{"id":"smoke:extract:01","prompt":"In the JSON object {\"name\":\"Mira\",\"role\":\"editor\",\"active\":true}, what is the value of role? Return only the value without quotation marks.","expected_answer":"editor","category":"extraction"}
+{"id":"smoke:extract:02","prompt":"Read this record: city=Lima; count=17; color=teal. What is count? Return only the integer.","expected_answer":"17","category":"extraction"}
+{"id":"smoke:extract:03","prompt":"From the list [11, 4, 29, 8], return only the largest integer.","expected_answer":"29","category":"extraction"}
+{"id":"smoke:string:01","prompt":"Reverse the lowercase string planet. Return only the reversed string.","expected_answer":"tenalp","category":"string"}
+{"id":"smoke:string:02","prompt":"Convert the word Orchard to lowercase. Return only the lowercase word.","expected_answer":"orchard","category":"string"}
+{"id":"smoke:string:03","prompt":"Sort these words alphabetically: pear, apple, plum. Return only the words separated by commas and single spaces.","expected_answer":"apple, pear, plum","category":"string"}
+{"id":"smoke:code:01","prompt":"What integer does Python print for print(len([2, 4, 6, 8]))? Return only that integer.","expected_answer":"4","category":"code"}
+{"id":"smoke:code:02","prompt":"What integer does Python print for print(sum(range(5)))? Return only that integer.","expected_answer":"10","category":"code"}
+{"id":"smoke:code:03","prompt":"What integer does Python print for print([3, 5, 7][1])? Return only that integer.","expected_answer":"5","category":"code"}

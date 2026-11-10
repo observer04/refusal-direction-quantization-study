@@ -1,0 +1,8 @@
+{
+  "frozen_utc": "2026-11-10T04:09:45.094018+00:00",
+  "labels_sha256": "292442bb48aae80526363a63ec2a93201b94ac63fdfd3aca913cd9f77a5e90a8",
+  "count": 60,
+  "reviewer": "single execution agent, condition-masked opaque IDs; no independent human review",
+  "mapping_opened_before_freeze": false,
+  "analysis_sha256": "db0390754b209ccc5f059361ad1853830b15b072042b4c6a85d456ee3a1ea2fa"
+}

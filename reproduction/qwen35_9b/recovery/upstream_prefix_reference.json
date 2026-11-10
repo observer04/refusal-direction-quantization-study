@@ -1,0 +1,9 @@
+{
+  "checked_date": "2026-11-09",
+  "repository": "p-e-w/heretic",
+  "commit": "8b0dbac4dd180dc23d62fdf9714dc9d8b31f3d2c",
+  "commit_date": "2026-11-08T07:41:50Z",
+  "url": "https://github.com/p-e-w/heretic/blob/8b0dbac4dd180dc23d62fdf9714dc9d8b31f3d2c/src/heretic/main.py",
+  "observation": "Current source recognizes an existing CoT initializer in the chat template and appends only its finalizer; Qwen3.5 is explicitly discussed. It distinguishes an already-closed block from an open initializer.",
+  "limit": "This current code is not evidence of the publisher's exact historical run settings."
+}

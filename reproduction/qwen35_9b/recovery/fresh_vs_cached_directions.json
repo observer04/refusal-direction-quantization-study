@@ -1,0 +1,22 @@
+{
+  "scope": "Own stored float32 arrays compared without local model or tensor execution",
+  "fresh_run": "qwen35-recovery-corrected/v1",
+  "cached_pilot": "qwen35-recovery-projected-pilot/v1",
+  "arrays": {
+    "good_means": {
+      "coordinates": 135168,
+      "max_absolute_error": 0.0,
+      "nonidentical_coordinates": 0
+    },
+    "bad_means": {
+      "coordinates": 135168,
+      "max_absolute_error": 0.0,
+      "nonidentical_coordinates": 0
+    },
+    "projected_directions": {
+      "coordinates": 135168,
+      "max_absolute_error": 0.0,
+      "nonidentical_coordinates": 0
+    }
+  }
+}

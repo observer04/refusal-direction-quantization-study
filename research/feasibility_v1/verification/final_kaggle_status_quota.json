@@ -1,0 +1,23 @@
+{
+  "quota": {
+    "command": [
+      "kaggle",
+      "quota"
+    ],
+    "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nresource  used   remaining  total   refreshAt            \n--------  -----  ---------  ------  -------------------  \nGPU       5.67h  24.33h     30.00h  2026-11-14T00:00:00  \nTPU       0.00h  20.00h     20.00h  2026-11-14T00:00:00  \n",
+    "stderr": "",
+    "returncode": 0
+  },
+  "kernel_status": {
+    "command": [
+      "kaggle",
+      "kernels",
+      "status",
+      "ommprakash007/qwen35-semantic-nf4-feasibility-v1"
+    ],
+    "stdout": "Warning: Looks like you're using an outdated `kaggle` version (installed: 2.2.4), please consider upgrading to the latest version (2.2.5)\nommprakash007/qwen35-semantic-nf4-feasibility-v1 has status \"KernelWorkerStatus.COMPLETE\"\n",
+    "stderr": "",
+    "returncode": 0
+  },
+  "checked_utc": "2026-11-10T04:14:28.200512+00:00"
+}

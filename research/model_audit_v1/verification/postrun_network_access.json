@@ -1,0 +1,14 @@
+{
+  "checked_utc": "2026-11-10T05:53:33.531817+00:00",
+  "events": [
+    {
+      "host": "huggingface.co",
+      "resolved": true
+    },
+    {
+      "host": "api.kaggle.com",
+      "resolved": true
+    }
+  ],
+  "note": "Run completed and uploaded privately before local DNS failures. No rerun or new generation."
+}

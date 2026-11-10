@@ -1,0 +1,56 @@
+.env
+.env.*
+__pycache__/
+.venv/
+.vscode/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.log
+*.tmp
+*.swp
+*.zip
+*.tar.gz
+~$*
+.DS_Store
+
+# Runtime credentials and local account configuration
+credentials*.json
+*service-account*.json
+token.json
+kaggle.json
+hosts.yml
+
+# Model material and generated inference artifacts are preserved on HF/Kaggle
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.npy
+*.npz
+tokenizer.json
+**/runs/
+**/all_responses.jsonl
+**/*responses.jsonl
+**/*token_journal.jsonl
+**/*review_queue.jsonl
+**/*blind_queue.jsonl
+**/*agent_labels.jsonl
+**/agent_labeled_responses.jsonl
+**/HUMAN_REVIEW*.html
+
+# Output-bearing historical notebooks remain local; source notebooks are tracked
+*.executed.ipynb
+Uncensor_any_LLM_with_abliteration_updated.ipynb
+notebook6e40f1f90a.ipynb
+
+# Keep the final document, authoring source and compact QA records
+report/baseline_v1_20261110/
+report/checkpoint_evidence/
+report/figures_proposed/
+report/writing_qa/*
+!report/writing_qa/QA_NOTES.md
+!report/writing_qa/artifact.md
+!report/writing_qa/structural_checks.json
+!report/writing_qa/self_containment_scan.json
+!report/writing_qa/build_manifest.json

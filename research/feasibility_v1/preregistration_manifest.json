@@ -1,0 +1,66 @@
+{
+  "PROTOCOL.md": {
+    "sha256": "f9275a3dafe2fb742b191cd8d96928403b10c26777477c822bc5c20bfe7ac55f",
+    "bytes": 5530
+  },
+  "prepare.py": {
+    "sha256": "648982843426747d7f09f8cc400920a02b2c1f85f816d9f0324276a17d402dfd",
+    "bytes": 5890
+  },
+  "prompts.jsonl": {
+    "sha256": "1a8411c42f95baadd1bb632b3e0e00af15bc8bc1dbbc442da85941f2487cb632",
+    "bytes": 8701
+  },
+  "quota_before_cli.json": {
+    "sha256": "068264f6cdcc6645e602aa26a02842ffc841c76a8b878944161f1166075bf250",
+    "bytes": 425
+  },
+  "kernels_before.csv": {
+    "sha256": "8f78561616750a320875e64213df04ebf159d4d51ec0ddf5b19bd7c04e144f21",
+    "bytes": 5230
+  },
+  "dedup_verification.json": {
+    "sha256": "33ada0ff6b236e941edbbca7e437202e47135806b7e8b26af373430a5c632e0f",
+    "bytes": 898
+  },
+  "review_rubric.md": {
+    "sha256": "bf75a65675bcef311e601e82eafc3fe6680d14e087442f5c21426bb1f8045367",
+    "bytes": 1513
+  },
+  "pins.json": {
+    "sha256": "efc00d7f3d2370fc294e6caf99c3d3ed98d556f10463b00a7cc3f0fa6c9805ac",
+    "bytes": 1498
+  },
+  "run_kaggle.py": {
+    "sha256": "1bc39fed9a2fd9e9b8731db01f3e6093c6f220a9ba754e4e39d1df59c35c9cee",
+    "bytes": 19770
+  },
+  "kaggle/feasibility.py": {
+    "sha256": "26b2e62db45effbc401596faa07533bb4232afc65a1d3f17b1052d6cdf66867f",
+    "bytes": 75205
+  },
+  "kaggle/kernel-metadata.json": {
+    "sha256": "618eef010940319a038bf29abe9e6b1aaaa13e0b1bcc80bc599b2339c3c8369b",
+    "bytes": 427
+  },
+  "reference/harmbench_test.csv": {
+    "sha256": "75d257b3e7428c52eb7b0154318f455af3e01b09a3794b5e2f3d36054f3c0e29",
+    "bytes": 160828
+  },
+  "reference/xstest.csv": {
+    "sha256": "11783fb294ed017473ee53c207d71f2161c7672c8d0b037501e78387f801cb5a",
+    "bytes": 38719
+  },
+  "reference/modeling_qwen3_5.py": {
+    "sha256": "af05d0acfe79fff8aea1c75f93516a6a72bc80f6f901329a73e66a3866fe1e7c",
+    "bytes": 87748
+  },
+  "reference/gsm8k_test.jsonl": {
+    "sha256": "3730d312f6e3440559ace48831e51066acaca737f6eabec99bccb9e4b3c39d14",
+    "bytes": 749738
+  },
+  "reference/source_manifest.json": {
+    "sha256": "50c3778bdafcfec15cbd452240d67d56a1070ca68b86ed8d51446ddaccee8959",
+    "bytes": 840
+  }
+}

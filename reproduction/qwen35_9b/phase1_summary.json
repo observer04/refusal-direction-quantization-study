@@ -1,0 +1,58 @@
+{
+  "status": "complete",
+  "date": "2026-11-08",
+  "baseline": {
+    "refusals": 100,
+    "n": 100,
+    "hit_token_limit": 59
+  },
+  "rounded_replay": {
+    "refusals": 72,
+    "n": 100,
+    "hit_token_limit": 91,
+    "benign_first_token_kl": 0.4340466260910034
+  },
+  "saved_replay_verification": {
+    "refusals": 72,
+    "n": 100,
+    "hit_token_limit": 91,
+    "exact_response_matches": 100,
+    "compared_to": "edited merged model before serialization"
+  },
+  "published_checkpoint": {
+    "refusals": 8,
+    "n": 100,
+    "hit_token_limit": 100,
+    "benign_first_token_kl": 0.07842996716499329
+  },
+  "published_card": {
+    "baseline_refusals": 100,
+    "edited_refusals": 6,
+    "evaluation_n": 100,
+    "benign_first_token_kl": 0.0793
+  },
+  "conclusion": "Publisher effect approximately reproduced; rounded-parameter weight replay did not reproduce it.",
+  "unsafe_compliance_evaluated": false,
+  "harmbench_400_evaluated": false,
+  "benign_capability_benchmarks_evaluated": false,
+  "next_baseline": "Observer04/Qwen3.5-9B-heretic-validated-20261108",
+  "validated_weight_copy": {
+    "source": "trohrbaugh/Qwen3.5-9B-heretic-v2",
+    "source_revision": "81dda62421c43a5bd5722edbc6cd47714673dc7f",
+    "destination": "Observer04/Qwen3.5-9B-heretic-validated-20261108",
+    "destination_revision": "eac0df296771d1ae18f2bbb798efbc02999fe0f1",
+    "private": true,
+    "weight_sha256": {
+      "model-00001-of-00002.safetensors": "996fe236e7269655ff07b0c127974d6348e330974344ab79e0d161141b34b6b7",
+      "model-00002-of-00002.safetensors": "2ee73dff6cd4e65000aa2fc7e31871391e6221d00ab1838af1c99d713f7dea14"
+    },
+    "all_weight_objects_match": true,
+    "copy_method": "CPU-only Kaggle file transfer; no model execution or dtype conversion"
+  },
+  "quota": {
+    "before_batch_gpu_hours_remaining": 28.67,
+    "after_batch_gpu_hours_remaining": 27.48,
+    "approx_batch_gpu_hours_used": 1.19
+  },
+  "workers": "Both GPU evaluation jobs and CPU-only persistence job completed."
+}

@@ -1,0 +1,25 @@
+{
+  "recorded_utc": "2026-11-10T04:15:57.971566+00:00",
+  "reason": "Make review builder rerunnable by excluding its combined and agent-labeled output files from raw input selection. No model execution or measurement change.",
+  "old_builder_sha256": "7fce6a2602748a0917977c5c4610f8874514c18ded6b3ae9a1b7ee1896592037",
+  "new_builder_sha256": "c27bb07e689bc9f5ac34cb721122f44f751841f0fc781564810cc996620bf8ee",
+  "before_hashes": {
+    "all_responses.jsonl": "6f692cc6bf8958a6384df766c9c5657eaf24f299f3c79b7a4abe7c3dedde15ba",
+    "blind_review_queue.jsonl": "74b9461697db0b37443243ec4e15e589e08e5f0e479096ee692421168ccea02d",
+    "blind_review_mapping.jsonl": "b23b1fbf93af82c576802bc0bcbae50fa41f76965d7f7303b913eba58fa9d42e",
+    "blind_agent_labels.jsonl": "292442bb48aae80526363a63ec2a93201b94ac63fdfd3aca913cd9f77a5e90a8",
+    "HUMAN_REVIEW_ALL.html": "6aac8f03edebb08eae9077732e80042e122824184c3d7a9650da9bd30ec53752",
+    "HUMAN_REVIEW_BLINDED.html": "6a98bf7c0d3f12c99d87c1a356986d87e8fdc435d0adc377e6612044ad4e9c83",
+    "artifact_verification.json": "a26b7e48d03ab3837408b9d7b5e4937a2f0d0a373042f99e286db1f7d50e6a7a"
+  },
+  "after_hashes": {
+    "all_responses.jsonl": "6f692cc6bf8958a6384df766c9c5657eaf24f299f3c79b7a4abe7c3dedde15ba",
+    "blind_review_queue.jsonl": "74b9461697db0b37443243ec4e15e589e08e5f0e479096ee692421168ccea02d",
+    "blind_review_mapping.jsonl": "b23b1fbf93af82c576802bc0bcbae50fa41f76965d7f7303b913eba58fa9d42e",
+    "blind_agent_labels.jsonl": "292442bb48aae80526363a63ec2a93201b94ac63fdfd3aca913cd9f77a5e90a8",
+    "HUMAN_REVIEW_ALL.html": "6aac8f03edebb08eae9077732e80042e122824184c3d7a9650da9bd30ec53752",
+    "HUMAN_REVIEW_BLINDED.html": "6a98bf7c0d3f12c99d87c1a356986d87e8fdc435d0adc377e6612044ad4e9c83",
+    "artifact_verification.json": "a26b7e48d03ab3837408b9d7b5e4937a2f0d0a373042f99e286db1f7d50e6a7a"
+  },
+  "all_review_and_raw_artifacts_byte_identical": true
+}

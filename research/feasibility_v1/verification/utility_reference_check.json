@@ -1,0 +1,13 @@
+{
+  "checked_utc": "2026-11-10T04:10:08.408907+00:00",
+  "reference_arithmetic": {
+    "GSM8K:test:686": 80,
+    "GSM8K:test:1132": 45000,
+    "GSM8K:test:414": 56
+  },
+  "response_count": 15,
+  "correct": 14,
+  "unknown_capped": 1,
+  "wrong": 0,
+  "scope": "Three very simple selected arithmetic cases, not a general utility benchmark."
+}

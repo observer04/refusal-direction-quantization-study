@@ -1,0 +1,12 @@
+{
+  "19": {
+    "raw_direction_dot_good_mean_unit": -0.3609459393680411,
+    "projected_direction_dot_good_mean_unit": -5.520591000469718e-19,
+    "raw_to_projected_abs_cosine": 0.932586669374312
+  },
+  "20": {
+    "raw_direction_dot_good_mean_unit": -0.28058007334107415,
+    "projected_direction_dot_good_mean_unit": -6.436355625591969e-17,
+    "raw_to_projected_abs_cosine": 0.9598306687037207
+  }
+}

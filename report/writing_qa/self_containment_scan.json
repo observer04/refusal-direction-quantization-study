@@ -1,0 +1,23 @@
+{
+  "final_sha256": "149f6b2dc43653a5254d1f7b7d3112344a1b68ed252352c7bda5c00b562d24a8",
+  "scope": "All Word XML text/instructions including paragraphs, cells, captions, headers, footers and references; all external relationship targets",
+  "patterns": [
+    "/home/",
+    "file://",
+    "research/",
+    "reproduction/",
+    "Observer04",
+    "\\b[A-Z_]+\\.md\\b",
+    "\\.ipynb\\b",
+    "\\.jsonl?\\b",
+    "HUMAN_REVIEW",
+    "all_responses",
+    "AUDIT\\.md",
+    "RESULTS\\.md",
+    "\\[CITE:",
+    "\\{cite:",
+    "\\{[a-z]+\\}"
+  ],
+  "matches": {},
+  "pass": true
+}

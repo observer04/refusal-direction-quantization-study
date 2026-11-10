@@ -1,0 +1,7 @@
+{
+  "checked_utc": "2026-11-10T05:38:18.010429+00:00",
+  "submitted_downloaded_source_sha256": "19e0741d7270430b7bcff7abb6e8f59c0817208a98747e54c07d91715736ef42",
+  "matches_preregistered_submitted_source": true,
+  "versioned_endpoint": "owner/slug/1 returned403",
+  "fallback": "Current-source endpoint succeeded for sole submitted version1; no mutation or rerun performed."
+}

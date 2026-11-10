@@ -1,0 +1,106 @@
+{
+  "sha": "9b15eb07be7aa1e55cb8a202ae68fe7c93376721",
+  "node_id": "C_kwDOSL7kK9oAKDliMTVlYjA3YmU3YWExZTU1Y2I4YTIwMmFlNjhmZTdjOTMzNzY3MjE",
+  "commit": {
+    "author": {
+      "name": "Nathan Sapwell",
+      "email": "nathan@dreamfast.solutions",
+      "date": "2026-07-25T11:33:48Z"
+    },
+    "committer": {
+      "name": "Nathan Sapwell",
+      "email": "nathan@dreamfast.solutions",
+      "date": "2026-07-25T11:33:48Z"
+    },
+    "message": "Merge branch 'master' of github:dreamfast/abliterlitics",
+    "tree": {
+      "sha": "a959471a03dca3e24c2186000a1be955867316b3",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/trees/a959471a03dca3e24c2186000a1be955867316b3"
+    },
+    "url": "https://api.github.com/repos/dreamfast/abliterlitics/git/commits/9b15eb07be7aa1e55cb8a202ae68fe7c93376721",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\niQIzBAABCgAdFiEEyLpHYkOj4Uoqw3MiUkyZMkdvzI0FAmpknx0ACgkQUkyZMkdv\nzI3/3Q/+IjN8jBpTxwDnPi+kFQ3VzFGEK4+ul+ia4wZwbugZDK2auOCld0uVRi+a\n/hQKaYjkM4hTjM8/5e1p6eRZyMIrqi8V1gX5xd+D3C6kHw8wCLlqr8qysOn0mtn+\nbog4X1QxKaIHgH0uLHcB5imHDayULIafh12JxHbZYnjROSBMwQf55SWbm4bjGluo\nY+80Gd4HYNjcu9W5i9xug7lbv1QO6n2xZkOkCnOVMzQgMkERBiIUFmSn2qEGitu2\n/+gjJgyto5x8oRfRhFyyozc4PlUMZjtxC0AYsUq1CLxCIB3JS1SfNv/3k7XqRDcs\n+3xF3muCPWSe4z5PnSWb2nI3QGmcf5jdsOUXLjoYUOhVGBBF7tyIOvGK2XDTr0QS\nUowG/U5KlUoeHCxfyY/Y9qno4HjZd6EiZJADU8ZdGlaxPRAUiZkG5nZeNOf3uWXv\nJWCqEzfSjiu4vCG7SUP+FBEmbJQyNcIUpxpeCzi04cj9aKO/+WR9ZzK6oPbOt92R\n2jEBesFj/G6WDEFtzif4GCcfkM0ahoAj34cfvDv+a3nS+wTlTUpu1g2g4JWSyWTN\nIM9VS2g8xfIOEMrWJUxCrLRYVKFo3+25AnypeH7iiY0uEC3fuhA+WsKi73CoEFB2\n8tKygRh+3j8jDs7qaEy3HtXEJXOZN0PUmecCbmeJWCsLeiOixQk=\n=pDn+\n-----END PGP SIGNATURE-----",
+      "payload": "tree a959471a03dca3e24c2186000a1be955867316b3\nparent 32000cbb56b78412ded3d5b17bfdb504dce4698e\nparent 5074012e9b89d7f8c4cc97de1b5e2f5afc1d7a89\nauthor Nathan Sapwell <nathan@dreamfast.solutions> 1784979228 +0800\ncommitter Nathan Sapwell <nathan@dreamfast.solutions> 1784979228 +0800\n\nMerge branch 'master' of github:dreamfast/abliterlitics\n",
+      "verified_at": "2026-07-25T11:34:00Z"
+    }
+  },
+  "url": "https://api.github.com/repos/dreamfast/abliterlitics/commits/9b15eb07be7aa1e55cb8a202ae68fe7c93376721",
+  "html_url": "https://github.com/dreamfast/abliterlitics/commit/9b15eb07be7aa1e55cb8a202ae68fe7c93376721",
+  "comments_url": "https://api.github.com/repos/dreamfast/abliterlitics/commits/9b15eb07be7aa1e55cb8a202ae68fe7c93376721/comments",
+  "author": {
+    "login": "dreamfast",
+    "id": 5360978,
+    "node_id": "MDQ6VXNlcjUzNjA5Nzg=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/5360978?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dreamfast",
+    "html_url": "https://github.com/dreamfast",
+    "followers_url": "https://api.github.com/users/dreamfast/followers",
+    "following_url": "https://api.github.com/users/dreamfast/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dreamfast/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dreamfast/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dreamfast/subscriptions",
+    "organizations_url": "https://api.github.com/users/dreamfast/orgs",
+    "repos_url": "https://api.github.com/users/dreamfast/repos",
+    "events_url": "https://api.github.com/users/dreamfast/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dreamfast/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "dreamfast",
+    "id": 5360978,
+    "node_id": "MDQ6VXNlcjUzNjA5Nzg=",
+    "avatar_url": "https://avatars.githubusercontent.com/u/5360978?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/dreamfast",
+    "html_url": "https://github.com/dreamfast",
+    "followers_url": "https://api.github.com/users/dreamfast/followers",
+    "following_url": "https://api.github.com/users/dreamfast/following{/other_user}",
+    "gists_url": "https://api.github.com/users/dreamfast/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/dreamfast/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/dreamfast/subscriptions",
+    "organizations_url": "https://api.github.com/users/dreamfast/orgs",
+    "repos_url": "https://api.github.com/users/dreamfast/repos",
+    "events_url": "https://api.github.com/users/dreamfast/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/dreamfast/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "32000cbb56b78412ded3d5b17bfdb504dce4698e",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/commits/32000cbb56b78412ded3d5b17bfdb504dce4698e",
+      "html_url": "https://github.com/dreamfast/abliterlitics/commit/32000cbb56b78412ded3d5b17bfdb504dce4698e"
+    },
+    {
+      "sha": "5074012e9b89d7f8c4cc97de1b5e2f5afc1d7a89",
+      "url": "https://api.github.com/repos/dreamfast/abliterlitics/commits/5074012e9b89d7f8c4cc97de1b5e2f5afc1d7a89",
+      "html_url": "https://github.com/dreamfast/abliterlitics/commit/5074012e9b89d7f8c4cc97de1b5e2f5afc1d7a89"
+    }
+  ],
+  "stats": {
+    "total": 2,
+    "additions": 2,
+    "deletions": 0
+  },
+  "files": [
+    {
+      "sha": "9a527b10d9648649d03c3581f92d71f9c87769ef",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 0,
+      "changes": 2,
+      "blob_url": "https://github.com/dreamfast/abliterlitics/blob/9b15eb07be7aa1e55cb8a202ae68fe7c93376721/README.md",
+      "raw_url": "https://github.com/dreamfast/abliterlitics/raw/9b15eb07be7aa1e55cb8a202ae68fe7c93376721/README.md",
+      "contents_url": "https://api.github.com/repos/dreamfast/abliterlitics/contents/README.md?ref=9b15eb07be7aa1e55cb8a202ae68fe7c93376721",
+      "patch": "@@ -4,6 +4,8 @@\n \n Comparative forensic analysis of LLM abliteration techniques.\n \n+Note: this is an uncleaned messy version after a recent analysis. I still need to clean and refine the master branch!\n+\n ## What It Does\n \n Abliterlitics measures structural and behavioral differences between base LLMs and their"
+    }
+  ]
+}

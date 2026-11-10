@@ -1,0 +1,51 @@
+{
+  "raw_combined_records": 72,
+  "new_records": 48,
+  "reused_records": 24,
+  "frozen_agent_labels_unchanged": true,
+  "earlier_historical_raw_files_unchanged": true,
+  "review_builder_reproduces_all_bytes": true,
+  "human_ratings_all_blank": true,
+  "human_queue_omits_conditions_and_model_identity": true,
+  "human_html": {
+    "HUMAN_REVIEW_PAIRED.html": {
+      "cards": 72,
+      "blank_select_fields": 936,
+      "blank_note_fields": 72,
+      "full_prompt_and_raw_response_roundtrip": true,
+      "scripts": 0
+    },
+    "HUMAN_REVIEW_BLINDED.html": {
+      "cards": 72,
+      "blank_select_fields": 936,
+      "blank_note_fields": 72,
+      "full_prompt_and_raw_response_roundtrip": true,
+      "scripts": 0
+    }
+  },
+  "source_copies_equal_preregistered_local_files": {
+    "matched_prompts.json": "c0c90899e34b19cc2f2871131e493ed56ddd751fefed17e9c69979ea8c38f546",
+    "PROTOCOL.md": "f22cba1c75872216301914aea4c2afeb8600e1c5425df9cf7bfede4b8c4dc75e",
+    "prepare.py": "6cce4903d16b7dd7aa6731d90ce74da6d7b832e103d26e57b27c51e9e49527f4",
+    "fresh_prompts.jsonl": "37415a2007718f7cf3d58bd551eacaa3908847e15ab894f37bedb86f3c21e11f",
+    "dedup_verification.json": "b87080c98ca495735f240f6cf1822e153d29f969e2dfe8f058ca50fb917e25d4",
+    "review_rubric.md": "bdeaba1e5536bbaadc67e15f6678f89c87e5cf3e300a867b57dce03d28c5e7fa",
+    "pins.json": "d22d0dd994a962c51aff55fe3b1c2d9651e7d68baec1853ec34a484d610dd061",
+    "matched_reuse_metadata.json": "424d2c6d124a062bd3ce1b09c731da8cce4265699d804c5c02709831e252a15b",
+    "run_kaggle.py": "e68b44c94bdcc5986784183de8236de9d370b33de5a80e88e58a98e478d8742a"
+  },
+  "all_three_generation_defaults_equal_except_version_metadata": true,
+  "all_model_parameters_fp16": true,
+  "clean_safety_responses_containing_closed_think_tag": 0,
+  "CoT_bug_not_needed_for_our_clean_text_rescore": true,
+  "artifact_hashes": {
+    "all_responses.jsonl": "8d0b9c7875d69f319b71029084882a66d51ec3d82df506c2625a4cfd0ffc6cc6",
+    "human_blind_queue.jsonl": "3edfd03bd953c1ecfd28fdc4927daa68d29a38962b3198b24e67c4f8521b1157",
+    "human_blind_mapping.jsonl": "b22266e79d53b8b5089bd147e811f8ed748bb29d8d50e13bb0148ef3ef245ab1",
+    "HUMAN_REVIEW_PAIRED.html": "c2c31432756f0ee3b02f9c1d88b915243d3e266425aaeea0aa81c5eeadf817d5",
+    "HUMAN_REVIEW_BLINDED.html": "ad5deb97892b26f7a6494cdb7e0aeba99fea0b44551cebdb743372189830b9a9",
+    "new_blind_queue.jsonl": "fd7822959c8d1e971455dbbb9ee123a0d1d3bfebb0080fd7026292e0abe51c2c",
+    "new_blind_mapping.jsonl": "32604a26f92f73a6d279d3459a73740d9937824a65131c21ec1afd1011d25185"
+  },
+  "limitations": "No new weights, tokenizer/model execution or harmful functionality tests. Human blinding is imperfect as documented; structural masking does not prove reviewer ignorance."
+}

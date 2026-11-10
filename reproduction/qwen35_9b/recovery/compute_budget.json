@@ -1,0 +1,38 @@
+{
+  "initial_recovery_envelope_gpu_quota_hours": 3.0,
+  "quota_reset_utc": "2026-11-14T00:00:00",
+  "before_recovery_gpu_remaining_hours": 27.48,
+  "after_pilot_gpu_remaining_hours": 26.43,
+  "pilot_measured_gpu_quota_hours": 1.05,
+  "pilot": {
+    "slug": "ommprakash007/qwen35-recovery-projected-pilot",
+    "version": 1,
+    "runtime_cap_seconds": 5400,
+    "terminal_status": "COMPLETE",
+    "terminal_observed_utc": "2026-11-09T17:52:00Z"
+  },
+  "corrected": {
+    "slug": "ommprakash007/qwen35-recovery-corrected",
+    "version": 1,
+    "accepted_approximately_utc": "2026-11-09T18:08:00Z",
+    "runtime_cap_seconds": 6300,
+    "status": "COMPLETE",
+    "terminal_observed_utc": "2026-11-09T19:14:29Z",
+    "gpu_released": true
+  },
+  "maximum_gpu_hours_pilot_actual_plus_corrected_cap": 2.8,
+  "gpu_jobs_serial": true,
+  "cpu_audit": {
+    "slug": "ommprakash007/qwen35-recovery-weight-audit",
+    "version": 1,
+    "runtime_cap_seconds": 3600,
+    "gpu_enabled": false,
+    "last_observed_status": "QUEUED",
+    "last_observed_utc": "2026-11-09T19:27:45Z",
+    "cancellation_limit": "No exact session ID available from status/get metadata; no guessed cancellation or deletion performed."
+  },
+  "after_recovery_gpu_remaining_hours": 25.37,
+  "corrected_measured_gpu_quota_hours": 1.06,
+  "total_measured_recovery_gpu_quota_hours": 2.11,
+  "unused_initial_envelope_hours": 0.89
+}

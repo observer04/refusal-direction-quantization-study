@@ -1,0 +1,10 @@
+{
+  "kernel": "ommprakash007/qwen35-independent-model-audit-v1",
+  "version": 1,
+  "submitted_utc": "2026-11-10T04:56:41.452301+00:00",
+  "external_timeout_seconds": 6800,
+  "generation_deadline_seconds": 6100,
+  "quota_before_gpu_hours": 24.33,
+  "submitted_source_sha256": "19e0741d7270430b7bcff7abb6e8f59c0817208a98747e54c07d91715736ef42",
+  "status": "RUNNING"
+}

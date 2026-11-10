@@ -1,0 +1,18 @@
+{
+  "scope": "Reference arithmetic independently recomputed using integer operations; no model generation or condition labels.",
+  "cases": [
+    {
+      "id": "GSM8K:test:197",
+      "calculation": "23786 - (8417 + 9092)",
+      "independent_answer": 6277,
+      "reference": "6277"
+    },
+    {
+      "id": "GSM8K:test:279",
+      "calculation": "6*s+9=3*(s+9), so 3*s=18",
+      "independent_answer": 6,
+      "reference": "6",
+      "wording_limit": "Uses benchmark-intended six times as old interpretation of six times older."
+    }
+  ]
+}

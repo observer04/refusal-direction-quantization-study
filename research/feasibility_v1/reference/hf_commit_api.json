@@ -1,0 +1,272 @@
+{
+  "/api/models/{namespace}/{repo}/commits/{rev}": {
+    "get": {
+      "summary": "List commits",
+      "tags": [
+        "models"
+      ],
+      "responses": {
+        "200": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$schema": "https://json-schema.org/draft/2020-12/schema",
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "title": {
+                      "type": "string"
+                    },
+                    "message": {
+                      "type": "string"
+                    },
+                    "authors": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "user": {
+                            "type": "string"
+                          },
+                          "avatar": {
+                            "type": "string"
+                          }
+                        },
+                        "required": [
+                          "user"
+                        ],
+                        "additionalProperties": false
+                      }
+                    },
+                    "date": {
+                      "type": "string",
+                      "format": "date-time",
+                      "pattern": "^(?:(?:\\d\\d[2468][048]|\\d\\d[13579][26]|\\d\\d0[48]|[02468][048]00|[13579][26]00)-02-29|\\d{4}-(?:(?:0[13578]|1[02])-(?:0[1-9]|[12]\\d|3[01])|(?:0[469]|11)-(?:0[1-9]|[12]\\d|30)|(?:02)-(?:0[1-9]|1\\d|2[0-8])))T(?:(?:[01]\\d|2[0-3]):[0-5]\\d:[0-5]\\d(?:\\.\\d+)?(?:Z))$"
+                    },
+                    "formatted": {
+                      "description": "Available if expand includes formatted",
+                      "type": "object",
+                      "properties": {
+                        "title": {
+                          "type": "string"
+                        },
+                        "message": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "title"
+                      ],
+                      "additionalProperties": false
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "message",
+                    "authors",
+                    "date"
+                  ],
+                  "additionalProperties": false
+                }
+              }
+            }
+          },
+          "description": "Commits list",
+          "headers": {
+            "X-Total-Count": {
+              "schema": {
+                "$schema": "https://json-schema.org/draft/2020-12/schema",
+                "type": "integer",
+                "minimum": -9007199254740991,
+                "maximum": 9007199254740991
+              }
+            },
+            "Link": {
+              "schema": {
+                "$schema": "https://json-schema.org/draft/2020-12/schema",
+                "type": "string"
+              },
+              "description": "Link to the next page"
+            }
+          }
+        }
+      },
+      "parameters": [
+        {
+          "name": "namespace",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "repo",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "rev",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "p",
+          "in": "query",
+          "schema": {
+            "default": 0,
+            "type": "integer",
+            "minimum": -9007199254740991,
+            "maximum": 9007199254740991
+          },
+          "required": false
+        },
+        {
+          "name": "expand",
+          "in": "query",
+          "schema": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "formatted"
+              ]
+            }
+          },
+          "required": false
+        },
+        {
+          "name": "limit",
+          "in": "query",
+          "schema": {
+            "default": 50,
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 1000
+          },
+          "required": false
+        }
+      ]
+    }
+  },
+  "/api/models/{namespace}/{repo}/commit/{rev}": {
+    "post": {
+      "description": "For legacy reason, we support both `application/json` and `application/x-ndjson` but we recommend using `application/x-ndjson` to create a commit.\n\nJSON-lines payload:\n```json\n{\n  \"key\": \"header\",\n  \"value\": {\n    \"summary\": \"string (REQUIRED)\",\n    \"description\": \"string (OPTIONAL - defaults to empty string)\",\n    \"parentCommit\": \"string (OPTIONAL - 40-character hex SHA)\"\n  }\n}\n{\n  \"key\": \"file\",\n  \"value\": {\n    \"path\": \"string (REQUIRED)\",\n    \"content\": \"string (OPTIONAL - required if oldPath not set)\",\n    \"encoding\": \"utf-8 | base64 (OPTIONAL - defaults to utf-8)\",\n    \"oldPath\": \"string (OPTIONAL - for move/rename operations)\"\n  }\n}\n{\n  \"key\": \"deletedEntry\",\n  \"value\": {\n    \"path\": \"string (REQUIRED)\"\n  }\n}\n{\n  \"key\": \"lfsFile\",\n  \"value\": {\n    \"path\": \"string (REQUIRED - max 1000 chars)\",\n    \"oid\": \"string (OPTIONAL - required if oldPath not set, 64 hex chars)\",\n    \"algo\": \"sha256 (OPTIONAL - only sha256 supported)\",\n    \"size\": \"number (OPTIONAL - required if oldPath is set)\",\n    \"oldPath\": \"string (OPTIONAL - for move/rename operations)\"\n  }\n}\n```\n\nJSON payload:\n```json\n{\n  \"summary\": \"string (REQUIRED)\",\n  \"description\": \"string (OPTIONAL - defaults to empty string)\",\n  \"parentCommit\": \"string (OPTIONAL - 40-character hex SHA)\"\n  \"files\": [\n    {\n      \"path\": \"string (REQUIRED)\",\n      \"content\": \"string (OPTIONAL - required if oldPath not set)\",\n      \"encoding\": \"utf-8 | base64 (OPTIONAL - defaults to utf-8)\",\n      \"oldPath\": \"string (OPTIONAL - for move/rename operations)\"\n    }\n  ],\n  \"deletedEntries\": [\n    {\n      \"path\": \"string (REQUIRED)\"\n    }\n  ],\n  \"lfsFiles\": [\n    {\n      \"path\": \"string (REQUIRED - max 1000 chars)\",\n      \"oid\": \"string (OPTIONAL - required if oldPath not set, 64 hex chars)\",\n      \"algo\": \"sha256 (OPTIONAL - only sha256 supported)\",\n      \"size\": \"number (OPTIONAL - required if oldPath is set)\",\n      \"oldPath\": \"string (OPTIONAL - for move/rename operations)\"\n    }\n  ]\n}\n```\n",
+      "summary": "Commit",
+      "tags": [
+        "models"
+      ],
+      "responses": {
+        "200": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$schema": "https://json-schema.org/draft/2020-12/schema",
+                "type": "object",
+                "properties": {
+                  "success": {
+                    "type": "boolean",
+                    "description": "Whether the commit was successful"
+                  },
+                  "pullRequestUrl": {
+                    "type": "string",
+                    "description": "The URL of the pull request"
+                  },
+                  "commitOid": {
+                    "type": "string",
+                    "description": "The OID of the commit"
+                  },
+                  "commitUrl": {
+                    "type": "string",
+                    "description": "The URL of the commit"
+                  },
+                  "hookOutput": {
+                    "type": "string",
+                    "description": "The output of the git hook"
+                  }
+                },
+                "required": [
+                  "success",
+                  "commitOid",
+                  "commitUrl",
+                  "hookOutput"
+                ],
+                "additionalProperties": false
+              }
+            }
+          },
+          "description": "The response of the commit"
+        }
+      },
+      "parameters": [
+        {
+          "name": "namespace",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "repo",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "rev",
+          "in": "path",
+          "required": true,
+          "schema": {
+            "type": "string"
+          }
+        },
+        {
+          "name": "create_pr",
+          "in": "query",
+          "schema": {
+            "description": "Whether to create a pull request from the commit",
+            "type": "string"
+          },
+          "required": false
+        },
+        {
+          "name": "hot_reload",
+          "in": "query",
+          "schema": {
+            "description": "For Spaces, whether to try to hot reload the commit (only for single python files updates)",
+            "type": "string"
+          },
+          "required": false
+        },
+        {
+          "name": "Content-Type",
+          "in": "header",
+          "schema": {
+            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "default": "application/x-ndjson",
+            "description": "`application/x-ndjson` if you to commit by json lines",
+            "type": "string",
+            "enum": [
+              "application/json",
+              "application/x-ndjson"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

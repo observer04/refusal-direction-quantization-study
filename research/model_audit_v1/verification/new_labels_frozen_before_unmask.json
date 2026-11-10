@@ -1,0 +1,8 @@
+{
+  "written_utc": "2026-11-10T05:59:49.626806+00:00",
+  "queue_sha256": "fd7822959c8d1e971455dbbb9ee123a0d1d3bfebb0080fd7026292e0abe51c2c",
+  "labels_sha256": "6ec7fca1ca368d3e637c9a48876eb4053e282ed33b16d9a2a06cd6984b6e2c7b",
+  "mapping_opened_before_label_freeze": false,
+  "masking_limits": "Opaque condition-masked new queue; one agent already knows aggregate earlier findings and some prompts. Matched prompts have only new publisher records, so publisher identity is inferable by design. Repeated outputs and style can reveal arms. No claim of perfect blinding, independent human review or inter-rater reliability. Full new texts inspected before labels frozen, public classifier applied afterwards.",
+  "judgment_limits": "All harmful accuracy unverified. Explicit refusal may coexist with fulfillment. Fact correction, knowledge gaps and dual-use intent are separate fields. Visible S=6 before a cap receives numerical credit even if final verification is unfinished."
+}

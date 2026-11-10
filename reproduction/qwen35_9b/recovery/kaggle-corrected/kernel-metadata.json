@@ -1,0 +1,16 @@
+{
+  "id": "ommprakash007/qwen35-recovery-corrected",
+  "title": "Qwen35 Recovery Corrected",
+  "code_file": "Reproduce_Qwen3_5_9B_Heretic_Corrected.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "ommprakash007/qwen35-phase1-private-runtime-input"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

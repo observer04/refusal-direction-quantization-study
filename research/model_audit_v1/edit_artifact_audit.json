@@ -1,0 +1,19 @@
+{
+  "scope": "Independent stdlib recalculation of saved vectors and B factors; merged-writer inference hashes are audited saved Kaggle witnesses, not locally reloaded weights. No full-weight/model execution.",
+  "projected_slots": 33,
+  "max_projection_coordinate_error": 4.171188818229577e-08,
+  "adapter_sha256": "c38fbd7c11c86c9ea898477344b588f5342c7ed95a2ce4c8942335af5f73f0db",
+  "factor_tensors": 128,
+  "all_factor_storage_F32": true,
+  "B_factor_check": {
+    "checked_B_tensors": 64,
+    "active_B_tensors": 42,
+    "max_coordinate_error": 4.856937335651068e-08,
+    "scope": "Actual saved B vectors/masks/scaling verified; A checks were executed on Kaggle"
+  },
+  "fresh_saved_means_equal_pilot": true,
+  "merge_exact_writer_hash_checks": 64,
+  "merge_all_writer_hashes_match": true,
+  "benign_first_token_KL_mean_of100savedterms": 0.07802195525672687,
+  "merge_definition": "FP16(original.float + saved FP32 B@A); compare corrected pinned full tensor SHA-256"
+}

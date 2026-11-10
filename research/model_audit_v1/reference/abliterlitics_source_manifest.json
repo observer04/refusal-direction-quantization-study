@@ -1,0 +1,65 @@
+{
+  "revision": "9b15eb07be7aa1e55cb8a202ae68fe7c93376721",
+  "files": {
+    ".opencode/agents/harm-reviewer.md": {
+      "url": "https://raw.githubusercontent.com/dreamfast/abliterlitics/9b15eb07be7aa1e55cb8a202ae68fe7c93376721/.opencode/agents/harm-reviewer.md",
+      "sha256": "512d941f4d4df1650d1698ef9ceaac9ac17781f25973f59c7353c897ea8ffd26",
+      "bytes": 12064
+    },
+    ".opencode/agents/harmbench.md": {
+      "url": "https://raw.githubusercontent.com/dreamfast/abliterlitics/9b15eb07be7aa1e55cb8a202ae68fe7c93376721/.opencode/agents/harmbench.md",
+      "sha256": "4a2aac26d75718c579c7033b0bbe63dcdb00f9b0220d5aeb4a655d3fd688057b",
+      "bytes": 7556
+    },
+    "comparison.json": {
+      "url": "https://raw.githubusercontent.com/dreamfast/abliterlitics/9b15eb07be7aa1e55cb8a202ae68fe7c93376721/comparison.json",
+      "sha256": "9c4ff53691e9325d1949b22d7f842eb5202102eee58406bb8a45927b348977d1",
+      "bytes": 776
+    },
+    "docs/METHODOLOGY.md": {
+      "url": "https://raw.githubusercontent.com/dreamfast/abliterlitics/9b15eb07be7aa1e55cb8a202ae68fe7c93376721/docs/METHODOLOGY.md",
+      "sha256": "afec3984c674f151740104fd63822023d45e85c35cc193b142ab8dc74da01d63",
+      "bytes": 17270
+    },
+    "runners/run_harmbench.py": {
+      "url": "https://raw.githubusercontent.com/dreamfast/abliterlitics/9b15eb07be7aa1e55cb8a202ae68fe7c93376721/runners/run_harmbench.py",
+      "sha256": "77e86faa459b1251755e3e11abf59ce3187d1f9a92964502e28ec5eb7a439df8",
+      "bytes": 28804
+    },
+    "src/benchmark/harmbench_classify.py": {
+      "url": "https://raw.githubusercontent.com/dreamfast/abliterlitics/9b15eb07be7aa1e55cb8a202ae68fe7c93376721/src/benchmark/harmbench_classify.py",
+      "sha256": "e31236f51f94c55d9fff124ca4d3491e1a6578d7b42696690faf29d0a7335b04",
+      "bytes": 40477
+    },
+    "src/benchmark/harmbench_generate.py": {
+      "url": "https://raw.githubusercontent.com/dreamfast/abliterlitics/9b15eb07be7aa1e55cb8a202ae68fe7c93376721/src/benchmark/harmbench_generate.py",
+      "sha256": "ec89845028aa43c030452357e8ac7511cbb66979e778ac9dc1d5b52f69f01848",
+      "bytes": 14764
+    },
+    "src/benchmark/harmbench_review.py": {
+      "url": "https://raw.githubusercontent.com/dreamfast/abliterlitics/9b15eb07be7aa1e55cb8a202ae68fe7c93376721/src/benchmark/harmbench_review.py",
+      "sha256": "21f2e3d6e6786de542c56577387cbfbe1f2e518b465061391db89804e52f4a41",
+      "bytes": 10265
+    },
+    "tests/fixtures/harmbench_labeled.json": {
+      "url": "https://raw.githubusercontent.com/dreamfast/abliterlitics/9b15eb07be7aa1e55cb8a202ae68fe7c93376721/tests/fixtures/harmbench_labeled.json",
+      "sha256": "6b25a94c3018b6e798932e736c6c04129969ab8cb3a9f0cc2dc698484e8dab12",
+      "bytes": 2661
+    },
+    "tests/test_benchmark/test_harmbench_classify.py": {
+      "url": "https://raw.githubusercontent.com/dreamfast/abliterlitics/9b15eb07be7aa1e55cb8a202ae68fe7c93376721/tests/test_benchmark/test_harmbench_classify.py",
+      "sha256": "13ad2d679c107698c97712246cb19334c1c75d7ef99da4b7004465978dd5d270",
+      "bytes": 6688
+    },
+    "tests/test_benchmark/test_harmbench_generate.py": {
+      "url": "https://raw.githubusercontent.com/dreamfast/abliterlitics/9b15eb07be7aa1e55cb8a202ae68fe7c93376721/tests/test_benchmark/test_harmbench_generate.py",
+      "sha256": "52133d9e3eed5fe0276922bb0916de32b180adc4cf644d935809575b03bd51f7",
+      "bytes": 717
+    },
+    "tests/test_benchmark/test_harmbench_review.py": {
+      "url": "https://raw.githubusercontent.com/dreamfast/abliterlitics/9b15eb07be7aa1e55cb8a202ae68fe7c93376721/tests/test_benchmark/test_harmbench_review.py",
+      "sha256": "d8e63e2ca030856e391970bcb543b2543e4fb9b6e3060574aab94138621d2fa8",
+      "bytes": 518
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ommprakash007/qwen35-recovery-projected-pilot",
+  "title": "Qwen35 Recovery Projected Pilot",
+  "code_file": "Recover_Qwen3_5_9B_Heretic.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "ommprakash007/qwen35-phase1-private-runtime-input"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

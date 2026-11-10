@@ -1,0 +1,7 @@
+{
+  "written_utc": "2026-11-10T04:58:10.126245+00:00",
+  "queue_sha256": "92db6a61d98a32cd8a6b87564d85f9f6d371fede85fd2fdd8be90ad7e3259318",
+  "labels_sha256": "79a74353e16a655f15ed23570ebea70e89c64e72e44c11f9e881c8c375bf6b0d",
+  "mapping_opened_before_label_freeze": false,
+  "masking_limits": "Prior aggregate findings and some prompt identities known; style may identify arms. Independent condition-masked single-agent review, not perfect blinding or human review."
+}

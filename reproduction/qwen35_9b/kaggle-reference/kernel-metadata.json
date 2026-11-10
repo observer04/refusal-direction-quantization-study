@@ -1,0 +1,18 @@
+{
+  "id": "ommprakash007/qwen35-phase1-published-check",
+  "title": "Qwen35 Phase1 Published Check",
+  "code_file": "Evaluate_Published_Qwen3_5_9B.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "ommprakash007/qwen35-phase1-private-runtime-input"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [
+    "ommprakash007/qwen35-phase1-heretic-replay"
+  ],
+  "model_sources": []
+}

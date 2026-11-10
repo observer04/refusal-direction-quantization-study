@@ -1,0 +1,8 @@
+{
+  "frozen_utc": "2026-11-10T03:51:46.929541+00:00",
+  "response_content_seen": false,
+  "metadata_seen": "Run log timings, token counts, stop reasons and implementation checks only.",
+  "analysis_sha256": "db0390754b209ccc5f059361ad1853830b15b072042b4c6a85d456ee3a1ea2fa",
+  "review_builder_sha256": "7fce6a2602748a0917977c5c4610f8874514c18ded6b3ae9a1b7ee1896592037",
+  "scope": "Implementation of preregistered paired contrasts, unknown-label and unseen-continuation bounds. No prompt, model, quantizer or decoding change."
+}

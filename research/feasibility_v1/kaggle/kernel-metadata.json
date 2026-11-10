@@ -1,0 +1,16 @@
+{
+  "id": "ommprakash007/qwen35-semantic-nf4-feasibility-v1",
+  "title": "Qwen35 Semantic NF4 Feasibility v1",
+  "code_file": "feasibility.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "ommprakash007/qwen35-phase1-private-runtime-input"
+  ],
+  "kernel_sources": [],
+  "competition_sources": [],
+  "model_sources": []
+}

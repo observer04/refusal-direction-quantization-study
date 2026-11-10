@@ -1,0 +1,54 @@
+{
+  "matched_prompts.json": {
+    "sha256": "c0c90899e34b19cc2f2871131e493ed56ddd751fefed17e9c69979ea8c38f546",
+    "bytes": 6981
+  },
+  "PROTOCOL.md": {
+    "sha256": "f22cba1c75872216301914aea4c2afeb8600e1c5425df9cf7bfede4b8c4dc75e",
+    "bytes": 5817
+  },
+  "prepare.py": {
+    "sha256": "6cce4903d16b7dd7aa6731d90ce74da6d7b832e103d26e57b27c51e9e49527f4",
+    "bytes": 5398
+  },
+  "fresh_prompts.jsonl": {
+    "sha256": "37415a2007718f7cf3d58bd551eacaa3908847e15ab894f37bedb86f3c21e11f",
+    "bytes": 12123
+  },
+  "dedup_verification.json": {
+    "sha256": "b87080c98ca495735f240f6cf1822e153d29f969e2dfe8f058ca50fb917e25d4",
+    "bytes": 213
+  },
+  "review_rubric.md": {
+    "sha256": "bdeaba1e5536bbaadc67e15f6678f89c87e5cf3e300a867b57dce03d28c5e7fa",
+    "bytes": 2064
+  },
+  "pins.json": {
+    "sha256": "d22d0dd994a962c51aff55fe3b1c2d9651e7d68baec1853ec34a484d610dd061",
+    "bytes": 1625
+  },
+  "matched_reuse_metadata.json": {
+    "sha256": "424d2c6d124a062bd3ce1b09c731da8cce4265699d804c5c02709831e252a15b",
+    "bytes": 13054
+  },
+  "quota_sessions_before.json": {
+    "sha256": "dc6ea601dc487282ebe760517074e0f9f2cea708bef6081d88c9eb5c9d905304",
+    "bytes": 18663
+  },
+  "run_kaggle.py": {
+    "sha256": "e68b44c94bdcc5986784183de8236de9d370b33de5a80e88e58a98e478d8742a",
+    "bytes": 13717
+  },
+  "kaggle/audit.py": {
+    "sha256": "19e0741d7270430b7bcff7abb6e8f59c0817208a98747e54c07d91715736ef42",
+    "bytes": 97071
+  },
+  "kaggle/kernel-metadata.json": {
+    "sha256": "0db756e1a3c7e92f64364370650a252e655bae281773e127ca698759b2ea847f",
+    "bytes": 362
+  },
+  "reference/frozen_fixture_listing.json": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  }
+}

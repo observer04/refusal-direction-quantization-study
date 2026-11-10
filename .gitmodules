@@ -1,0 +1,3 @@
+[submodule "heretic-reference"]
+	path = reproduction/qwen35_9b/heretic-v1.2.0
+	url = https://github.com/p-e-w/heretic.git

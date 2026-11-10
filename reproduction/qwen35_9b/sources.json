@@ -1,0 +1,32 @@
+{
+  "retrieved_date": "2026-11-07",
+  "original_notebook_found": false,
+  "author_reproduction_manifest_found": false,
+  "release_tag_commit": "27097bfe8e60d5e65f0200785f1e96a52afcbc2a",
+  "compatible_source_commit": "e26da5e0e648bb285f896c9801849edfa8d20913",
+  "compatible_source_url": "https://codeload.github.com/p-e-w/heretic/zip/e26da5e0e648bb285f896c9801849edfa8d20913",
+  "compatible_source_archive_sha256": "486f20a05152bc1c21fec2243164fa69efde1d963f3af15909559dfd6d355cf1",
+  "reference_model": {
+    "id": "trohrbaugh/Qwen3.5-9B-heretic-v2",
+    "revision": "81dda62421c43a5bd5722edbc6cd47714673dc7f"
+  },
+  "base_model": {
+    "id": "Qwen/Qwen3.5-9B",
+    "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a"
+  },
+  "datasets": {
+    "mlabonne/harmful_behaviors": "01cead01398926d81f7c52bdb790ee8cf77ebba7",
+    "mlabonne/harmless_alpaca": "02c6a92cfcf11bb0c387334f8146d149d65b587f"
+  },
+  "published_metrics": {
+    "baseline_refusals": 100,
+    "edited_refusals": 6,
+    "evaluation_n": 100,
+    "benign_first_token_kl": 0.0793
+  },
+  "limitations": [
+    "Published parameters rounded to two decimal places.",
+    "Original seed, full environment, source/model/dataset revisions and study journal were not supplied.",
+    "The compatible upstream source postdates the published checkpoint. This is a best-effort parameter replay, not byte-for-byte reproduction."
+  ]
+}
